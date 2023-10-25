@@ -5,5 +5,7 @@
 *include ./Surveys/Dolina_Mietusia/Ratusz_Mulowy/ptasia.svx
 *include ./Surveys/Dolina_Koscieliska/Organy/Jaskinia_Zimna/zimna.svx
 *include ./Surveys/Dolina_Koscieliska/Organy/Jaskinia_Czarna/czarna.svx
+*include ./Surveys/Dolina_Mietusia/Jaskinia_Mietusia/mietusia.svx
+
 *include ./GPS/gps.svx
 

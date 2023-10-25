@@ -50,8 +50,9 @@
 *fix otwor_za_siedmioma_progami   19.884690 49.234066 1455
 *fix otwor_bandzioch_kominiarski  19.849283 49.242136 1456.3
 *fix otwor_ptasia                 19.905058	49.239684 1627
-*fix otwor_zimna                  19.8723022 49.24434 1283      ; OSM
-*fix otwor_czarna                 19.871910 49.244520 1326.0    ; OSM
+*fix otwor_zimna                  19.872302 49.244340 1283    ; OSM
+*fix otwor_czarna                 19.871910 49.244520 1326.0  ; OSM
+*fix otwor_mietusia               19.898935 49.246213 1273    ; OSM
                                    
 ;*fix otwor_zimna                  19.869689 49.247219 1283 ; geoportal
 ;*fix otwor_czarna                 19.870371 49.244385 1326.0 ; geoportal
