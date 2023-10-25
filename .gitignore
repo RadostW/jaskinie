@@ -9,3 +9,11 @@
 *.lst
 
 
+#Survex
+*.3d
+*.err
+*~
+*.log
+*.pos
+*.diff
+*.xml
