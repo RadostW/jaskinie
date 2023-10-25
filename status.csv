@@ -1,7 +1,7 @@
 Nazwa,Długość [m],Głębokość [m],Deniwelacja [m],lokalizacja wejscia,pomiary pod ziemia,meta: data,meta: instrument,meta: osoby
-Jaskinia Wielka Śnieżna,23723,808,824,,tak,,,
-Jaskinia Śnieżna Studnia,12700,726,763,,,,,
-Jaskinia Wysoka,11660,300,435,,,,,
+Jaskinia Wielka Śnieżna,23723,808,824,niepotwierdzone,zaimportowane,,,
+Jaskinia Śnieżna Studnia,12700,726,763,niepotwierdzone,zaimportowane,,,
+Jaskinia Wysoka,11660,300,435,niepotwierdzone,zaimportowane,,,
 Jaskinia Miętusia,10540,283,305,,,,,
 Jaskinia Bańdzioch Kominiarski,10010,546,562,,,,,
 Jaskinia Wielka Litworowa,7185,354,370,,,,,

@@ -25,8 +25,9 @@
 
 *cs out UTM34N
 *cs LONG-LAT
-*fix otwor_wielka_sniezna      19.926442 49.240183 1689.2
-*fix otwor_nad_kotlinami       19.920813 49.239429 1875
-*fix otwor_wielka_litworowa    19.914797 49.238564 1903
-*fix otwor_jasny_aven          19.921319 49.239606 1852
-*fix otwor_sniezna_studnia 	   19.922692 49.241469 1756.63
+*fix otwor_wielka_sniezna         19.926442 49.240183 1689.2
+*fix otwor_nad_kotlinami          19.920813 49.239429 1875
+*fix otwor_wielka_litworowa       19.914797 49.238564 1903
+*fix otwor_jasny_aven             19.921319 49.239606 1852
+*fix otwor_sniezna_studnia 	      19.922692 49.241469 1756.63
+*fix otwor_za_siedmioma_progami   19.884690 49.234066 1455
