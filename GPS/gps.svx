@@ -19,6 +19,9 @@
 ;#prefix ja
 ;#FIX  j0   E19:55:16.75  N49:14:22.58   1852m
 
+; Snizena Studnia
+; Original lines from "SS.SRV"
+;#FIX  ss0   E19:55:21.69  N49:14:29.29   1756.63m
 
 *cs out UTM34N
 *cs LONG-LAT
@@ -26,3 +29,4 @@
 *fix otwor_nad_kotlinami       19.920813 49.239429 1875
 *fix otwor_wielka_litworowa    19.914797 49.238564 1903
 *fix otwor_jasny_aven          19.921319 49.239606 1852
+*fix otwor_sniezna_studnia 	   19.922692 49.241469 1756.63

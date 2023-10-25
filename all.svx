@@ -1,2 +1,3 @@
 *include ./Surveys/Dolina_Malej_Laki/Przechod_Kotliny/System_Wielkiej_Snieznej/system_wielkiej_snieznej.svx
+*include ./Surveys/Dolina_Malej_Laki/Przechod_Kotliny/Sniezna_Studnia/sniezna_studnia.svx
 *include ./GPS/gps.svx
