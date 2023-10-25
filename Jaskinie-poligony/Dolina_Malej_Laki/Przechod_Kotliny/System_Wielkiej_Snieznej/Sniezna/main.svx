@@ -7,7 +7,7 @@
 ;    Surveyed_by       likely: Karol Makowski - Speleoklub Lodzki
 ;    Surveyed_by       likely: Marcin Slowik - Speleoklub Lodzki
 ;    Licence           CC BY 2.0
-;    Survey_device     likely: DitoX + Palm
+;    Survey_device     likely: DistoX + Palm
 
 ;#Units Meters Order=avd
 ;#FIX  0   E19:55:15.15  N49:14:22.32   1875m
@@ -18,6 +18,9 @@
 
 ;s68 - otwor snieznej
 ;#FIX  s68   E19:55:35.19  N49:14:24.66   1689.2m
+
+*equate otwor_wielka_sniezna swielkiejsnieznej.s68
+*equate otwor_nad_kotlinami swielkiejsnieznej.0
 
 *begin swielkiejsnieznej
   *title "System Wielkiej Snieznej"

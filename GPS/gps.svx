@@ -1,0 +1,17 @@
+;  OBLIGATORY FIELDS
+;    Geodetic_datum    WGS84 ; reguired for GPS data
+;    Coordinate_system UTM ; required for GPS data
+;    Survey_device     Unknown
+
+
+; System Wielkiej Snieznej
+; Original lines from "MAIN.SRV" file
+;#FIX  s68   E19:55:35.19  N49:14:24.66   1689.2m ; Wielka Sniezna
+;#FIX  0   E19:55:15.15  N49:14:22.32   1875m ; likely error
+; OpenStreetMap:  49.2394295, 19.9208130 ; Nad Kotlinami
+
+*cs out UTM34N
+*cs LONG-LAT
+
+*fix otwor_wielka_sniezna 19.926442 49.240183 1689.2
+*fix otwor_nad_kotlinami  reference 19.920813 49.239429 1875
