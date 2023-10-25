@@ -23,6 +23,10 @@
 ; Original lines from "SS.SRV"
 ;#FIX  ss0   E19:55:21.69  N49:14:29.29   1756.63m
 
+; Bandzioch Kominiarski
+; Original lines from "BK-CG.SRV"
+;#fix	000	416262.210	5455060.050	1456.3
+
 *cs out UTM34N
 *cs LONG-LAT
 *fix otwor_wielka_sniezna         19.926442 49.240183 1689.2
@@ -31,3 +35,4 @@
 *fix otwor_jasny_aven             19.921319 49.239606 1852
 *fix otwor_sniezna_studnia 	      19.922692 49.241469 1756.63
 *fix otwor_za_siedmioma_progami   19.884690 49.234066 1455
+*fix otwor_bandzioch_kominiarski  19.849283 49.242136 1456.3
