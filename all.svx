@@ -1,2 +1,2 @@
-*include ./Jaskinie-poligony/Dolina_Malej_Laki/Przechod_Kotliny/System_Wielkiej_Snieznej/Sniezna/main.svx
+*include ./Surveys/Dolina_Malej_Laki/Przechod_Kotliny/System_Wielkiej_Snieznej/system_wielkiej_snieznej.svx
 *include ./GPS/gps.svx

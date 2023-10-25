@@ -1,0 +1,42 @@
+;  OBLIGATORY FIELDS
+;    Cave_name         System Wielkiej Snieznej
+;    Section_name      Main
+;    Entry_last_update 2013-07-13
+;    Geodetic_datum    WGS84 ; reguired for GPS data
+;    Coordinate_system UTM ; required for GPS data
+;    Surveyed_by       unknown
+;    Surveyed_by       unknown
+;    Licence           CC BY 2.0
+;    Survey_device     unknown
+
+*equate otwor_wielka_sniezna swielkiejsnieznej.wlot.s68
+*equate otwor_nad_kotlinami swielkiejsnieznej.wlot.0
+*equate otwor_wielka_litworowa swielkiejsnieznej.litwor.LT58
+*equate otwor_jasny_aven swielkiejsnieznej.jasnya.j0
+
+*begin swielkiejsnieznej
+  *title "System Wielkiej Snieznej"
+  *date 2013.07.13
+
+  *include wlot
+  *include wrocl
+  *include litwor
+  *include krokodyl
+  *include krakow
+  *include jasnya
+  *include amoki
+  *include kolanko
+  *include przemkow
+  *include mikolajowy
+  
+  *equate wrocl.g83 wlot.g83
+  *equate krokodyl.g27 wlot.g27
+  *equate krakow.s35 wlot.s35
+  *equate wlot.4	jasnya.j20
+  *equate amoki.s47 wlot.s47
+  *equate kolanko.w1 wlot.w1
+  *equate przemkow.g36 wlot.g36
+  *equate przemko1.1.0	przemkow.pNkk19 
+  *equate litwor.LTcm87	krokodyl.gkPLk
+
+*end swielkiejsnieznej

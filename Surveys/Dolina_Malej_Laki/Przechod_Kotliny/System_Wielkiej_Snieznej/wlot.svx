@@ -1,31 +1,16 @@
 ;  OBLIGATORY FIELDS
 ;    Cave_name         System Wielkiej Snieznej
-;    Section_name      Main
+;    Section_name      Partie Wlotowe
 ;    Entry_last_update 2013-07-13
 ;    Geodetic_datum    WGS84 ; reguired for GPS data
 ;    Coordinate_system UTM ; required for GPS data
-;    Surveyed_by       likely: Karol Makowski - Speleoklub Lodzki
-;    Surveyed_by       likely: Marcin Slowik - Speleoklub Lodzki
+;    Surveyed_by       unknown
+;    Surveyed_by       unknown
 ;    Licence           CC BY 2.0
-;    Survey_device     likely: DistoX + Palm
+;    Survey_device     unknown
 
 ;#Units Meters Order=avd
-;#FIX  0   E19:55:15.15  N49:14:22.32   1875m
-;#note	0	/Nad Kotliny
-;#flag	0	/Nad Kotliny
-;0 - otwor Nad Kotlinami
-
-
-;s68 - otwor snieznej
-;#FIX  s68   E19:55:35.19  N49:14:24.66   1689.2m
-
-*equate otwor_wielka_sniezna swielkiejsnieznej.s68
-*equate otwor_nad_kotlinami swielkiejsnieznej.0
-
-*begin swielkiejsnieznej
-  *title "System Wielkiej Snieznej"
-  *date 2013.07.13
-
+*begin wlot
   *units tape meters
   *units compass degrees
   *units clino degrees
@@ -306,7 +291,7 @@ g25	g25a	0	90	1.30
 ;g25a haki nad st wiatrow
 g25a	g24	124	-26	4.30
 g24	g23	166	-75	8.60
-;g24 spit nad studnia wiatrów
+;g24 spit nad studnia wiatrÃ³w
 g23	g22	0	-90	1.50
 g22	g21	0	-90	25.50
 ;g21 dno st wiatrow - pod lina
@@ -341,7 +326,7 @@ g1	g0	86	0	6.85
 ;#flag	g0	/Syfon Dominiki
 ;
 ;
-;		Od trawersu Studni Wiatrów za syfon dziadka
+;		Od trawersu Studni WiatrÃ³w za syfon dziadka
 ;		Blotne Laznie
 ;
 ;
@@ -514,5 +499,4 @@ sc124	sc125	168	-15	3.70
 sc125	sc126	205	-2	2.80
 sc126	sc127	254	-6	1.80
 sc126	g98	105	-3	2.10
-
-*end swielkiejsnieznej
+*end wlot

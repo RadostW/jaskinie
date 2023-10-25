@@ -5,13 +5,24 @@
 
 
 ; System Wielkiej Snieznej
+;
 ; Original lines from "MAIN.SRV" file
 ;#FIX  s68   E19:55:35.19  N49:14:24.66   1689.2m ; Wielka Sniezna
 ;#FIX  0   E19:55:15.15  N49:14:22.32   1875m ; likely error
 ; OpenStreetMap:  49.2394295, 19.9208130 ; Nad Kotlinami
+;
+; Original lines from "LITWOR.SRV" file
+;#fix 	LT58	 0421006	5454543	1906
+;#FIX  LT58  E19:54:53.26989 N49:14:18.82979 1903m
+;
+; Original lines from "JASNYA.SRV" file
+;#prefix ja
+;#FIX  j0   E19:55:16.75  N49:14:22.58   1852m
+
 
 *cs out UTM34N
 *cs LONG-LAT
-
-*fix otwor_wielka_sniezna 19.926442 49.240183 1689.2
-*fix otwor_nad_kotlinami  reference 19.920813 49.239429 1875
+*fix otwor_wielka_sniezna      19.926442 49.240183 1689.2
+*fix otwor_nad_kotlinami       19.920813 49.239429 1875
+*fix otwor_wielka_litworowa    19.914797 49.238564 1903
+*fix otwor_jasny_aven          19.921319 49.239606 1852
