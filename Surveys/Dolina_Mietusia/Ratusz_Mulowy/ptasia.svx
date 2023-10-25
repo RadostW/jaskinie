@@ -1,0 +1,977 @@
+;  OBLIGATORY FIELDS
+;    Cave_name         Ptasia Studnia
+;    Section_name      Main
+;    Entry_last_update unknown
+;    Geodetic_datum    WGS84 ; reguired for GPS data
+;    Coordinate_system UTM ; required for GPS data
+;    Surveyed_by       unknown
+;    Surveyed_by       unknown
+;    Licence           CC BY 2.0
+;    Survey_device     unknown
+
+*equate otwor_ptasia ptasia.a1
+*equate otwor_lodowa_litworowa ptasia.a14
+*equate otwor_nad_dachem ptasia.a22
+
+*begin ptasia
+;==> 10A.SRV <==
+;#DATE 2004-07-01
+;#UNITS meters order= DAV
+;#Units A=D V=D
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *data normal from to tape compass clino
+  
+;#prefix ptasia
+;#Fix m1 81.40 12.48 -53.31
+;#Note m1 Kaprawa Salka
+;TODO nie jest to podl do glownego ciagu
+;
+; Radost Waszkiewicz (2023) comment:
+; Sekcja ponizej nie laczy sie z reszta - trzeba bylo wykomentowac
+
+;m1	m2	10.10	42	19
+;m2	m3	1.9	339	54
+;m3	m4	5.10	85	58
+;m4	m5	3.5	40	42
+;m5	m6	3.4	52	36
+;m6	m7	7	58	14
+;m7	m7a	6.66	26	40
+;m7a	m7b	5.3	60	-18
+;m7	m8	9.55	302	5
+;m8	m9	5.8 	73	12
+;m9	m10	13.15	20	72
+;m10	m11	14.55	350	78
+;;#Note m11 Strop sali Sloneczka
+;m7	1a	4.55	244	22
+;1a	1b	2.25	245	-20
+;1b	1c	3.6	254	-36
+;1c	1d	2.7	268	-74
+;1c	1c1	2.85	230	52
+;1c1	1c2	3.77	200	58
+;1c2	1c3	3.57	335	60
+;1c3	1c4	10	345	75
+;#Note 1c4 Zwieracz
+;1d	1e	5.65	240	-52
+;1e	1f	2.25	256	-30
+;1f	1g	1.8	220	-32
+;1g	1h	7.4	240	-78
+;1h	1i	3.35	285	-2
+;1i	1j	2.7	230	-46
+;1j	jk	6.3	218	-54
+
+;==> 11A.SRV <==
+;#DATE 2004-07-01
+;#UNITS meters order=DAV
+;#Units A=D V=D
+;#prefix ptasia
+;#Fix n1 38.95 83.14	-52.26
+n1	n2	15.75	64	8
+n2	n3	8.72	53	8
+n3	n4	16.86	63	4
+n4	n5	17.57	76	6
+n5	n6	18.7	70	0
+n6	n7	13.65	170	55
+n7	n8	20	196	34
+n8	n9	15.12	200	43
+n9	n10	11.3	152	37
+n10	n11	20	257	-3
+n11	n12	17.9	210	25
+n12	n13	14.65	114	25
+n10	n10a	20.2	156	7
+n10a	n10b	8.32	116	-1
+n10b	n10c	11.5	124	2
+;#Note n13 Pod sciana pr otwor
+
+;==> 12A.SRV <==
+;#DATE 2004-07-01
+;#UNITS meters order=DAV
+;#Units A=D V=D
+;#prefix ptasia
+;#Fix o1 -3.04 -33.25 -114.89
+;#Note o1 Goracy meander
+o1	j11a	0	0	0
+o1	o2	1.75	89	51
+o2	o3	2.7	0	90
+o3	o4	5.38	68	14
+o4	o5	2.03	74	18
+o5	o6	3.4	86	14
+o6	o7	3.8	60	28
+o7	o8	3.3	46	25
+o8	o9	3.1	72	12
+o9	o10	2.5	30	35
+o10	o11	2.1	45	25
+o11	o12	2.8	64	13
+o12	o13	8.1	6	44
+o13	o14	4.1	36	30
+o14	o15	2.9	20	34
+o15	o16	3.2	28	22
+o16	o17	1.8	44	0
+o17	o18	3.4	45	28
+o18	o19	0.8	78	20
+o19	o20	1.3	26	0
+o20	o21	1	136	40
+o21	o22	1.2	6	20
+o22	o23	2	84	30
+o23	o24	1.2	200	20
+o24	o25	2	114	40
+o25	o26	1.4	342	32
+o26	o27	1.4	80	30
+o27	o28	1.8	10	20
+o28	o29	2.5	90	24
+o29	o30	1	334	32
+o30	o31	1.6	28	18
+o31	o32	5.45	45	28
+o32	o33	5	69	0	; okno we franusiowej studni
+;#Fix o33 49.7 7.98 -78.53
+
+;==> 13A.SRV <==
+;#DATE 2004-07-01
+;#UNITS meters order=DAV
+;#Units A=D V=D
+;#prefix ptasia
+;#Fix p1 73.66 9.51 -65.65	; to punkt j39c w ciagu Partie Sadeckie
+p1	j39c	0	0	0
+p43	k10	0	0	0
+;#Note p1 Sala Gwiazdeczki
+p1	p2	7.98	17	22
+p2	p3	2	107	25
+p3	p4	0.5	198	6
+p4	p5	1.55	0	22
+p5	p6	4.4	82	-8
+p6	p7	2.9	47	-40
+p7	p8	9.15	329	-81
+p8	p9	48	0	-90	;dno oddzialowej
+p9	p10	5.6	89	0
+p10	p11	14.85	239	45
+p11	p12	7.1	242	40
+p12	p13	4.4	283	-5
+p13	p14	1.56	242	-8
+p14	p15	5.07	255	-5
+p15	p16	2.2	174	-28
+p16	p17	3	102	-10
+p17	p18	2.06	284	-21
+p18	p19	1.25	191	-28
+p19	p20	3.7	110	-4
+p20	p21	2.25	165	-8
+p21	p22	2.9	280	-6
+p22	p23	1.16	205	15
+p23	p24	2.53	0	-90
+p24	p25	1.53	315	-5
+p25	p26	8.4	0	-90
+p26	p27	4.45	330	5
+p27	p28	3.33	279	-20
+p28	p29	1.38	335	-9
+p29	p30	1.75	230	-20
+p30	p30a	6.93	303	-65
+p30a	p30b	1.2	4	-4
+p30b	p30c	1.98	288	-12
+p30c	p30d	24.1	0	-90
+p30d	p30e	3.3	304	-4
+;#Fix p30e 46.91 14.06 -151.84	; punkt j62 w ciagu partie sadeckie
+p30e	j62	0	0	0
+p30	p31	2.8	0	90
+p31	p32	5.46	270	22
+p32	p33	2.5	355	12
+p33	p34	4.8	262	-29
+p34	p35	2.37	205	-47
+p35	p36	1.8	276	-22
+p36	p37	2	170	0
+p37	p38	2.55	231	-44
+p38	p39	2.42	131	-20
+p39	p40	4.45	265	-5
+p40	p41	32.5	0	-90
+p41	p42	4.5	230	23
+p42	p43	5.9	280	-12	; dno P57 punkt 12 ze starego k10 z ciagu Franusiowa bar zacisze
+;#Fix p43 27.34 1.9 -153.71
+;#Note  p43 Studnia P57
+
+
+;==> 14A.SRV <==
+;#DATE 2004-07-02
+;#UNITS meters order=DAV
+;#Units A=D V=D
+;#prefix ptasia
+;#Fix r1 -54.17 -18.75 -231.8
+r1	b23	0	0	0
+r1	r2	2.65	19	45
+r2	r3	1.27	328	-36
+r3	r4	21.7	0	90
+r4	r5	1.05	140	10
+r5	r6	2.18	160	0
+r6	r7	2.17	239	-19
+r7	r8	2.47	226	-68
+r8	r9	4.35	180	-29
+r9	r10	4.32	250	-10
+r10	r11	1.43	170	12
+r11	r12	11.53	177	-5
+r12	r12a	10.29	232	-74
+r12a	r12b	7.81	188	-3
+r12b	r12c	2.13	200	-8
+r12c	r12d	6.55	0	-90
+r12d	r12e	9.98	316	-46	; polaczenie z ciagiem od st dna do syf piaszczystego
+r12	r13	5.4	26	-8
+r13	r14	7.02	158	13
+r14	r15	1.7	200	-37
+r15	r16	5.95	172	0
+r16	r17	6.48	182	8
+r17	r18	2.25	183	-14
+r18	R1	2.89	82	12
+R1	R2	8.19	60	16
+R2	R3	4.18	90	44
+R3	R4	5.05	90	4
+R4	R5	2.36	42	18
+R5	R6	1.7	70	-5
+R6	R7	3	42	16
+R7	R8	6.6	31	-32
+R8	R9	4.45	64	-38
+R9	R10	3	64	-34
+R10	R11	5.4	180	68
+R11	R12	3.11	118	58
+R12	R13	1.1	92	0
+R13	R14	3.3	48	6
+R14	R15	3.83	47	7
+R15	R16	5.89	62	-24
+R16	R17	3.8	80	-24
+R17	R18	4.85	51	38
+R18	R19	1.3	40	-4
+R19	R20	15.2	0	90
+R20	R21	1.74	50	6
+R21	R22	2.59	72	-12
+;#fIX R22 -14.54 -39.84 -160.81
+r18	r19	0.52	314	-4
+r19	r20	10.74	0	-90
+r20	r21	2.93	253	-38
+r21	r22	5.25	266	-54
+r22	r22a	1	134	-40
+r22a	r22b	13.2	178	-20
+;#Note r22b Syfon piaszczysty Poludniowy
+r22	r23	8.9	8	-8
+r23	r24	6.83	345	-38
+r24	r25	1.3	0	90
+r25	r26	1.81	5	9
+r26	r27	0.6	0	-90
+r27	r12e	6.91	5	-38
+r12e	r29	5.1	347	-26
+r29	r30	4	0	-90
+r30	r31	7.58	348	0
+r31	r32	3.96	8	-45
+;#Fix r32 -68.42 -33.63 -245.66
+
+;==> 15.SRV <==
+;#DATE 2004-07-02
+;#UNITS meters order=DAV
+;#prefix ptasia
+;#Units A=D V=D
+;#Fix s1 -17.08 -2.73 -183.01
+s1	i8	0	0	0
+s1 	s2	2.8	348	-27
+s2	s3	2.6	147	65
+s3	s4	3.6	92	24
+s4	s5	1.9	53	9
+s5	s6	4.35	95	5
+s6	s7	3.2	129	39
+s7	s8	4.3	83	16
+s8	s9	4.3	129	0	;s9 paranoja
+s9	S1	3.23	101	-1	;od S1 ciag do harlequinu
+S1	S2	2.25	121	-4
+S2	S3	3.45	57	10
+S3	S4	1.9	160	0
+S4	S5	4.3	290	80
+S5	S6	8.6	215	52
+S6	S7	0.95	273	45
+S7	S8	1.5	192	22
+S8	S9	3.4	99	32
+S9	S10	1.35	5	-13
+S10	S11	3.84	135	-2
+S11	S12	14.4	0	90
+S12	S13	2.75	69	59
+S13	S14	1.65	135	18
+S14	S15	5	79	-6
+S15	S16	3.9	80	-2
+S16	S17	3.85	135	20
+S17	S18	0.75	10	-5
+S18	S19	4.6	130	-39
+S19	S20	6.7	90	23
+S20	S21	3.9	96	11
+S21	S22	1.3	12	16
+S22	S23	1.4	299	15
+S23	S24	4.9	351	10
+S24	S25	3.15	0	90
+S25	S26	3.95	50	-24
+S26	S27	3.55	339	39
+S27	S28	3.85	253	12
+S28	S29	8.45	0	90
+S29	S30	1.85	309	33
+S30	S31	3.15	269	21
+S31	S32	2.15	314	11
+S32	S33	3.3	282	27
+S33	S34	3.9	42	18
+S34	S35	1.85	26	19
+S35	S36	4.7	8	-2	;S36 spit na polce w P57
+;#Fix S36	 25.57 2.11 -126.2/ Poczatek Harlequinu
+s9	s10	2.2	239	41
+s10	s11	2.55	174	33	;s11 rozdroze w strone harlequinu
+s11	s12	1.85	242	45
+s12	s13	6.3	270	18
+s13	s14	2.4	246	35
+s14	s15	4.25	216	11
+s15	s16	4.6	115	57	;s16 gora studni nad basenem
+;#Fix s16 -10.71 -17.74 -161.16
+;#Note s16 Studnia nad Basenem
+
+;==> 2A.SRV <==
+;#DATE 2004-06-30
+;#UNITS meters order=DAV
+;#Units A=D V=D
+;#prefix ptasia
+;#Fix b1 0 0 0 / Ptasia
+b1	b2	4.4 	128	-43
+b2	b3	18.6	0	-90
+b3	b4	4.6	0	-90
+b4	b5	40.45	0	-90
+b5	b6	8.1	254	-10
+b6	b7	5.35	216	-22
+b7	b8	6.2	298	6
+b8	b9	29.9	0	-90
+b9	b10	4.3	220	-9
+b10	b11	7	228	-30
+b11	b12	15.6	224	-61
+b12	b13	5.7	172	-38
+b13	b14	3.7	247	-26
+b14	b15	2.1	208	-55
+b15	b16	9.4	0	-90
+b16	b17	11.3	272	-16
+b17	b18	19	270	-18
+b18	b19	7.6	338	-43	;b18 punkt 12 w sali Dantego
+b18	b18a	4.5	44	0
+b18a	b18b	12.8	0	90
+b18b	b18c	18.9	0	90
+b18c	b18d	8.5	0	90
+b18d	b18e	12.7	0	90
+b18e	b18f	2.1	50	40
+b18e	b18A	2.55	248	28
+b18A	b18B	4.8	250	-10 	; salka z Fortepianem
+b18f	b18g	7.45	250	64
+b18g	b18h	4.8	70	60	; od b18h Meander wiadomo dokad
+b18h 	B1	5.75	59	0
+B1 	B2	3.8	164	-15
+B2	B3	5.9	67	-7
+B3	B4	6.55	0	-90
+B4	B5	1.1	312	5
+B5	B6	7.3	138	-50
+B6	B7	1.8	250	-10
+B7	B8	9.5	0	-90
+B8	B9	1	279	0
+B9	B10	42	0	-90
+b18h	b18i	13.55	20	68
+b18i	b18j	11.6	0	90
+;#Note b18j Strop sali dantego
+b19	b20	7.5	63	-54
+b20	b21	37.65	0	-90
+b21	b22	41.35	0	-90
+b22	b23	2.5	127	19	;dno studni TATY
+;#Note b23 Dno Studni Taty
+b23	b24	2	201	-44
+b24	b25	7.8	145	-81
+b25	b26	19.7	229	-14
+b26	b26a	4.05	212	0
+b26	b27	3.9	300	-30
+b27	b28	2.5	342	-59
+b28	b29	7	360	-4
+;#Note b29 Syfon
+;#Note b26 Sala Trójkatna
+
+;==> 3A.SRV <==
+;#DATE 2004-06-30
+;#UNITS meters order=DAV
+;#Units A=D V=D
+;#prefix ptasia
+;#Fix c1 -57.91 -24.48 -142.37/ Sala Dantego
+c1	b18	0	0	0
+c1	c2	8.78	314	-32
+c2	c3	1.65	218	-42
+c3	c4	25.5	0	-90
+c4	c5	16.75	0	-90
+c5	c6	3.5	286	-2
+c6	c7	3.10	216	-16
+c7	c8	8.7	0	-90
+c8	c9	4.1	266	26
+c9	c9a	1.46	22	-24
+c9a	c9b	4.9	42	-56
+c9	c10	2.55	226	38
+c10	c11	2.85	278	19
+c11	c12	5.4	246	4
+c12	c13	2.27	0	-90
+c13	c14	1.75	278	-24
+c14	c15	1.25	329	-4
+c15	c16	1.22	68	-24
+c16	c17	15	22	-68
+c17	c18	13.3	2	-59
+c18	c19	9.15	350	-66
+c19	c20	9	340	-49
+c20	c20a	7	218	-4
+c20a	c20b	1.15	282	-10
+c20b	c20c	4.64	282	-78
+c20c	c20d	4.05	30	-24
+c20d	c20e	4	215	-64
+c20	c21	3.8	62	-1
+c21	c22	8.9	58	2
+c22	c23	5.3	355	-34
+c23	c24	4.6	54	-9
+c24	c25	2.65	10	-9	;c25 to punkt 54 w ciagu mokra 18 dno
+c25	c26	2	270	-80
+c26	c27	19.32	154	-74
+c27	c28	6.95	65	-12
+c28	c29	13.9	65	-2
+c29	c30	7.09	42	-6
+c30	c31	5.13	50	-33
+c31	c32	1.3	2	-6
+c32	c33	4.89	344	-2
+c33	c34	7.45	350	-2
+c34	c35	1.44	238	22
+c35	c36	2.68	2	8	;c36 poczatek parti koktajl baru
+c36	c36a	3.26	274	72
+c36a	c36b	4.73	130	34
+c36b	c36c	4.32	100	54
+c36c	c36d	2.5	172	39
+c36d	c36e	7.15	58	72
+c36e	c36f	6.89	36	46
+c36f	c36g	6.27	354	82
+c36g	c36h	8.23	353	68
+c36h	c36i	3.45	352	50
+c36i	c36i1	5	82	6
+c36i	c36j	11.25	323	76
+c36j	c36k	4.25	352	73
+c36k	c36l	4.18	240	-12
+c36l	c36m	4.97	340	8
+c36m	c36n	10.35	38	66
+c36n	c36o	6.5	222	-42
+c36o	c36p	5.27	284	26
+c36p	c36r	8.88	289	36
+c36r	c36r1	10	229	10
+c36r	c36s	12.95	354	74
+c36s	c36t	3.05	18	36	; zmora
+c36t	d1	2.80	76	-2
+d1	d2	1.9	14	1
+d2	d3	1.91	89	0
+d3	d4	3.15	0	90
+d4	d5	2.55	99	2
+d5	d6	2.47	68	0
+d6	d7	2.38	42	3
+c36t	e1	10	52	49
+e1	e2	3.2	39	52
+e2	e3	5.9	79	39
+e3	e4	5.68	78	69
+e4	e5	3.05	71	42	;muchy w zmorze
+e5	e6	1.87	331	-10
+e6	e7	10.8	59	60
+e7	e8	3.7	66	16
+e8	e9	1.5	306	1
+e9	e10	4.8	64	64
+e10	e11	1.3	94	0
+e11	e12	3.2	358	0
+e12	e13	4.95	320	78
+e13	e14	3.2	18	6
+e14	e15	3.3	0	90
+e15	e16	5.4	0	90
+;#Note e16 Zmora
+c36	c37	5.28	320	-10
+c37	c38	1.58	22	14
+c38	c38a	4.5	6	-34	;c38a- ciag w stronê syfonu Moczydupka
+c38a	c38b	4.95	332	10
+c38b	c38c	3.2	2	-11
+c38c	c38d	11.66	12	-74
+c38d	c38e	7.7	264	-34
+c38e	c38f	3.7	276	-34
+c38f	c38g	7.4	42	42
+c38g	c38h	3.39	28	22
+c38h	c38i	4.78	90	9
+c38i	c38j	3.69	222	10
+;#Note c38f Syfon Moczydupka
+c38	c39	1.34	350	14
+c39	c40	8.42	202	40
+c40	c41	2.71	208	6
+c41	c42	3.58	224	-2
+c42	c43	8.38	238	5
+c43	c44	3.37	240	-16
+c44	c45	15.77	250	-2
+c45	c46	6.27	260	1
+c46	c47	7.63	358	-38
+c47	c48	4.81	45	-34
+c48	c49	4.66	30	-48
+c49	c50	10.15	12	-22
+c50	c51	1.25	10	-50
+c51	c52	5.94	356	-18
+c52	c53	3.44	13	-2
+c53	c54	1.93	80	-35
+c54	c55	4.5	60	-16
+c55	c56	3.56	56	-1
+c56	c57	5	40	-24
+c57	c58	0.3	8	0
+c58	c59	2.65	98	-24
+c59	c59a	6	168	0
+c59	c60	4.67	348	-6
+c60	c61	3.25	10	-13
+c61	c62	4.19	207	-58
+c62	c63	4.67	265	-12
+c63	c64	6.55	338	-36
+c64	c65	3.7	325	-10
+c65	c66	3.23	220	-27
+c66	c67	3.06	260	-3
+c67	c68	6.27	282	-40
+c68	c69	9.05	310	-50
+c69	c70	6.85	330	-45
+c70	c71	4.4	40	-24
+c71	c72	4.59	5	-66
+c72	c73	8.95	312	-49
+c73	c74	5.04	310	-15
+c74	c75	5.25	288	-42
+c75	c76	5.8	254	-50
+c76	c77	1.97	258	-40
+;#Note c77 Szczelina Strzygi
+
+;==> 4A.SRV <==
+;#DATE 2004-06-30
+;#UNITS meters order=DAV
+;#Units A=D V=D
+;#prefix ptasia
+;#Fix f1 -54.17 -18.75 -231.8
+f1	b23	0	0	0
+f1	f2	9.2	12	0
+f2	f2a	6.3	116	-5
+f2	f3	21	0	90
+f3	f4	7.25	325	10	;f4 poczatek ciagu rzetelnej informacji
+f4	f4a	3.9	243	0
+f4a	f4b	6	344	-51
+f4b	f4c	2.33	74	-35
+f4c	f4d	13.75	235	-68
+f4d	f4e	2.6	254	0
+f4e	f4f	3	225	-43
+f4f	f4g	2.65	294	-43
+f4g	f4h	3.85	351	-36
+f4h	f4i	3.76	217	-29
+f4i	f4j	3.25	246	-26
+f4j	f4k	15.6	350	-50
+f4k	f4l	3.43	59	-31
+f4l	f4m	1.7	360	-4
+;#Fix f4m -68.71 13.91 -243.26
+f4	f5	11.4	0	90	;f5 poczatek meandra speleologow
+f5	f6	7.42	300	68
+f6	f7	2.58	350	0
+f7	f8	3.65	290	0
+f8	f9	3.33	293	24
+f9	f10	3.14	257	20
+f10	f11	7.43	271	0
+f11	f12	2.05	255	0
+f12	f13	1.72	294	29
+f13	f14	10.56	52	25
+f14	f15	10.58	0	90
+f15	f16	3.2	50	-25
+f16	f17	5.1	61	12
+f17	f18	6.7	45	3
+f18	f19	4.43	57	52
+f19	f20	9.67	63	54
+f20	f21	3.6	22	0
+f21	f22	3.3	60	12
+f22	f23	3.18	7	22
+f23	f24	2.6	43	-20
+f24	f25	8	0	90
+f25	f26	1.05	340	0
+f26	f27	4.22	35	0
+f27	f28	4.1	10	0
+f28	f29	9.75	42	12
+f29	f30	1.75	54	14
+f30	f31	14.07	71	18
+f31	f32	8.35	58	28
+f32	f33	3.3	175	0
+f33	f34	8.15	43	30
+f34	f35	1.75	75	-36
+f35	f36	3.9	73	-5
+f36	f37	5.45	58	8
+f37	f38	3.85	35	6
+f38	f39	2.45	86	0
+f39	f40	3.3	44	11	; dno p14 czyli pierwszej studzienki w nad dachem
+f40	f41	14	0	90
+
+;==> 5A.SRV <==
+;#DATE 2004-06-30
+;#UNITS meters order=DAV
+;#Units A=D V=D
+;#prefix ptasia
+;#Fix g1 -55.85 -0.27 -195.68
+g1	g2	6.8	76	-32	; ciagod punktu 5 w ciagu glownym nad dachem
+g2	g3	0.6	349	0
+g3	g4	8.9	79	0
+g4	g5	6.2	93	0
+g5	g6	1.75	92	-15
+g6	g6a	7.1	220	-28
+g6a	g6b	4.58	241	-8
+g6b	g6c	2.75	225	0
+g6c	g6d	6.4	262	-51	; okno w studni Taty od LL
+g6	g7	5.57	72	0
+g7	g8	7.7	41	9
+g8	g9	6.85	68	22
+g9	g10	14.9	334	63
+g9	g9a	4.28	48	49
+g9a	g9b	13.3	68	22
+g10	g11	12.17	258	75
+g11	g12	10.35	240	20
+g12	g13	10	0	90
+g13	g14	7	259	50
+g14	g15	4.7	268	79
+g15	g16	9.23	251	53
+g16	g17	7.7	230	80
+g17	g18	11.5	276	52
+g18	g19	16.6	288	25
+g19	g20	9.95	86	61
+g20	g21	2.37	30	22	; g21 to punkt 16 wg starego
+g21	g22	4.25	82	38
+g22	g23	6.8	30	-5
+g23	g24	1.43	258	7
+g24	g25	3.92	62	25
+g25	g26	1.07	80	3
+g26	g27	4.8	46	4
+g27	g28	3.76	32	15
+g28	g29	1.8	75	5
+g29	g30	4.8	31	34
+g30	h1	1.2	80	-30
+h1	h2	3.5	60	6
+h2	h2a	3.5	62	14
+h2a	h2b	1.27	94	22
+h2b	h2c	1.92	94	38
+h2c	h2d	1.54	78	-4
+h2d	h2e	3.55	226	2
+h2e	h2f	4.37	82	-6
+h2	h3	3.67	72	-32
+h3	h4	1.9	98	10
+h4	h5	1.7	82	4
+h5	h6	3.37	64	34
+h6	h7	0.97	42	-8
+h7	h8	0.7	166	0
+h8	h9	2.96	54	-8
+h9	h10	5.7	68	4
+h10	h11	4.85	62	24
+h11	h12	2.03	92	32
+h12	h13	3.09	46	10
+h13	h14	2.92	48	26
+h14	h15	1.6	340	48
+h15	h16	3.8	62	40
+h16	h17	2.9	64	-8
+h17	h18	1.52	82	28
+h18	h19	4.76	46	32
+h19	h20	3.85	54	26
+h20	h21	1.6	18	18
+h21	h22	1.3	16	-52
+h22	h23	4.85	72	12
+h23	h24	5.8	50	8
+h24	h25	3.37	116	18
+h25	h26	5.35	46	8
+h26	h27	7.65	78	32
+;#Note h27 Korytarz pod Lodospad
+g30	g31	4.8	49	35
+g31	g32	4	77	13
+g32	g33	3.4	87	38
+g33	g34	3.68	90	14
+g34	g35	5.95	110	34
+g35	g36	3.76	90	0
+g36	g37	10.94	62	11
+g37	g38	2.6	65	35
+g38	g39	5.23	77	35
+g39	g40	8.15	55	21
+g40	g41	6.84	46	7
+g41	g42	3.16	50	13
+g42	g43	3.06	40	36
+g43	g44	2.53	75	18
+g44	g45	3.1	12	33
+g45	g46	6.98	87	8
+g46	g47	6.35	55	15
+g47	g48	5.9	61	48
+g48	g49	3.33	10	9
+g49	g49a	6.2	10	12
+g49a	g49b	8.67	14	34
+g49	g50	8.9	0	90
+g50	g51	4.83	348	10
+g51	g52	5.02	50	10
+g52	g53	7.1	0	6
+g53	g54	4.32	320	8	;otwor LL ,spity
+;#Fix g54 38.95 83.14 -52.26
+a14	g54	0	0	0
+
+;==> 6A.SRV <==
+;#Date 2004-06-30
+;#UNITS meters order=DAV
+;#Units A=D V=D
+;#prefix ptasia
+;#Fix i1 -16.4 12.22 -195.72	; i1 = g9 z ciagu LL
+i1	g9	0	0	0
+i1	i2	6.7	224	-47
+i2	i3	10.4	149	-71
+i3	i4	1.7	0	-90
+i4	i5	6.1	0	90
+i5	i6	11.15	178	81
+i6	i7	5.95	171	59
+i7	i8	8	177	60	;i8 poczatek urojeniowych
+i8	i9	4.37	223	61
+i9	i10	3.39	158	5
+i10	i11	1.7	78	20
+i11	i12	1.59	170	22
+i12	i13	1.2	144	8
+i13	i14	2.55	108	-2
+i14	i15	2.88	176	2
+i15	i16	2.1	128	2
+i16	i17	2.6	170	28
+i17	i18	3.22	100	-30
+i18	i19	6.6	234	26
+i19	i20	5.7	256	-38
+i20	i21	2.2	84	0
+i21	i22	35.1	0	90  	; spit na polce w  Mostku Piratow
+
+;==> 7A.SRV <==
+;#DATE 2004-06-30
+;#UNITS meters order=DAV
+;#Units A=D V=D
+;#prefix ptasia
+;#Fix j1  -14.29 -21.53 -143.37
+j1	j2	12	0	-90
+j2	j3	2.5	92	-36
+j3	j3a	6	22	-46	;j3a góra studni nad basenem
+j3a	j3b	18.6	0	-90	; dno studni nad basenem
+j3	j4	3.25	176	40
+j4	j5	4.1	182	48
+j5	j6	4.65	168	60
+j6	j7	5	122	72
+j7	j8	4.6	144	4
+j8	j8a	22	0	-90	; dno Pustynnej Burzy
+j8	j9	12.2	192	84
+j9	j9a	4.85	258	48
+j9a	j9b	4	208	-24
+j9b	j9c	2.2	318	12
+j9c	j9d	2.48	222	0
+j9d	j9e	1.55	234	-18
+j9e	j9f	1.8	172	-42
+j9f	j9g	3.42	94	-42
+j9g	j9h	11.05	92	-58
+j9h	j9i	3.45	54	-30
+j9i	j9j	18.3	0	-90
+j9j	j9k	8.4	270	4
+;#Note j9k Syfon pasozytów
+j9	j10	21.95	0	90
+j10	j11	1.85	44	22 	;j 11 punkt 11 wg starego
+j11	j11A	5.45	0	90	; najwy¿szy punkt pustynnnej Burzy
+j11	j11a	8	84	-62
+j11	j12	11.3	50	61
+j12	j13	3.72	292	-8
+j13	j14	7.6	65	11
+j14	j15	2.05	268	16
+j15	j16	5.2	0	-1
+j16	j17	8.3	66	4
+j17	j18	3.45	0	90
+j18	j19	7.3	100	37
+j19	j20	4.8	32	8
+j20	j21	6.67	53	16
+j21	j22	7.55	62	22
+j22	j23	6.7	56	12
+j23	j24	4.98	80	32
+j24	j25	3.05	126	35
+j25	j26	7.75	37	8
+j26	j27	4.75	42	0
+j27	j28	4.95	62	4
+j28	j28a	20.5	0	-90
+;#Note j28a Franusiowa
+j28	j29	2 	230	2
+j29	j30	3.6	48	66
+j30	j31	9.05	64	36
+j31	j32	3.4	179	-11
+j32	j33	7.35	74	72
+j33	j34	11.05	78	37
+j34	j35	1.6	352	45
+j35	j36	6.5	63	13
+j36	j37	4.75	108	31
+j37	j37a	3.38	64	24
+j37a	j37b	4.33	53	-4
+j37b	j37c	2.3	70	45
+j37c	j37d	4	53	0	; kontynuacja Meandra Majowego
+j37	j38	3.2	71	-22
+j38	j39	1.5	0	-90
+j39	j40	3.5	114	-30
+j39	j39a	7.3	232	-58
+j39a	j39b	3.2	230	-28
+j39b	j39c	6.4	0	-90	; dno sali Gwiazdeczki j39c
+j40	j40A	6.15	29	26
+j40A	j40B	4.8	68	4
+j40B	j40C	4.4	51	19
+j40	j44	1.7	31	-30
+j44	j45	4.8	121	-44
+j45	j46	8.35	11	-5
+j46	j47	2.05	42	-8
+j47	j48	2.05	80	-54
+j48	j49	9.06	0	-90
+j49	j50	6.5	172	-62
+j50	j51	48.8	0	-90	; dno oddzialowej
+j51	j52	7	262	0
+j52	j53	1.2	252	0
+j53	j54	2.6	222	-9
+j54	j55	1.6	302	-7
+j55	j56	7.1	298	-58
+j56	j57	2.95	303	-60
+j57	j58	2.35	241	0
+j58	j59	2.05	270	0
+j59	j60	8.4	0	-90
+j60	j61	15.7	240	-50
+j61	j62	14.6	275	6
+j62	j63	2.4	272	2
+j63	j64	5.45	0	-90
+j64	j65	7.68	239	0
+j65	j66	3.78	263	9
+j66	j67	9.48	266	7
+j67	j68	3.9	289	23
+j68	j69	1.82	20	17
+j69	j70	4.9	266	26
+j70	j71	2.5	292	50
+j71	j72	7.4	254	23
+;#Note j64 Wielki Klamca
+
+;==> 8A.SRV <==
+;#DATE 2004-07-01
+;#UNITS meters order=DAV
+;#Units A=D V=D
+;#prefix ptasia
+;#Fix k1 49.7 7.98 -96.07/ Franusiowa
+k1	j28a	0	0	0
+;k1	o33	0	0	0	;TODO nie dokladnie o33
+k8	S36	0	0	0
+k1	k2	4.8	198	-22
+k2	k3	3.6	278	16
+k3	k4	1	332	34
+k4	k5	14.23	257	6
+k5	k6	3.9	284	-1
+k6	k7	1.8	246	-34	;k7- K1 itd Meander Capulettich
+k7	K1	3.5	0	-90
+K1	K2	3.5	278	-8
+K2	K3	2.12	25	16
+K3	K4	2.62	352	20
+K4	K5	2.5	90	10
+K5	K6	2.45	332	-15
+K6	K7	2.4	71	-32
+K7	K8	5.3	1	15
+K8	K9	4.15	36	38
+K9	K10	1.02	338	23
+K10	K11	2.52	43	24
+K11	K12	2.8	308	10
+K12	K13	4.87	18	27
+K13	K14	3.45	37	49
+K14	K15	3.45	61	26
+K15	K16	4.1	320	45
+K16	K17	2.62	55	26
+K17	K18	4.95	347	48
+K18	K19	3.4	358	18
+K19	K20	3.5	79	21
+K20	K21	1.85	6	30
+K21	K22	5.2	355	78
+K22	K23	2.83	0	90
+K23	K24	6.9	110	69
+K24	K25	6.73	15	58
+K25	K26	6	30	35
+;#Note K26 Meander Capulettich
+k7	k8	30.3	0	-90
+k8	k9	3.8	97	-62
+k9	k10	24.15	0	-90
+k10	k11	5.3	354	0
+k11	k12	2.3	251	0
+k12	k13	7.4	275	-70
+k13	k14	6.7	260	-14
+k14	k15	4.3	258	0
+k15	k16	2	168	0
+k16	k17	2.4	244	2
+k17	k18	3.6	189	-12
+k18	k19	5	250	0
+;#Note  k19 Bar Zacisze
+
+;==> 9A.SRV <==
+;#DATE 2004-07-01
+;#UNITS meters order=DAV
+;#Units A=D V=D
+;#prefix ptasia
+;#Fix l1 89.49 21.84 -60.17
+l1	j48	0	0	0
+l1	l2	5.25	62	-32
+l2	l3	6.3	80	4
+l3	l4	3.1	32	10
+l4	l5	3.1	103	18
+l5	l6	1.7	80	-4
+l6	l7	2.7	114	15
+l7	l8	1.58	352	62
+l8	l9	4.26	114	-4
+l9	l10	7.23	0	90
+l10	l11	1.8	42	38
+l11	l12	5.9	88	0
+l12	l13	4.5	19	48
+l13	l14	4.5	234	-6
+l14	l15	4.05	0	90
+l15	l16	4.5	40	72
+l13	l13a	3.8	34	48
+;#Note l16 Parie Rozrywkowe
+
+;==> OTW_POW.SRV <==
+;
+; Radost Waszkiewicz (2023) comment:
+; Niektore fragmenty ponizej wygladaja na pomiary powierzchniowe
+; Ktore z nich - trudno dociec
+;
+;#UNITS meters order=DAV
+;#DATE 2004-06-30
+;#Units A=D V=D
+;#prefix ptasia
+;#FIX  a1   E19:54:18.208  N49:14:22.862   1627m
+;#Fix a1 0 0 0 / PTASIA
+;#Flag a1   0 0 0 Otwór Ptasiej
+;#Flag a1 Otwór Ptasiej
+;#Note a1 Otwór Ptasiej
+b1	a1	0	0	0
+a1	a2	7.2	300	-26
+*entrance a1
+a2	a3	10.2	240	-52
+a3	a4	14.2	301	-42
+a4	a5	17.6	20	-56
+a5	a6	20	356	-40
+a6	a7	20	18	-7
+a7	a8	20	79	26
+a8	a9	20	70	24
+a9	a10	6	60	16
+a10	a11	14	65	12
+a11	a12	13.8	70	9
+a12	a13	16	352	-56
+a13	a14	18	280	-42	; otwór Lodowej Litworowej
+;#Fix a14 38.95 83.14 -52.26 / Lodowa Litworowa
+a14	n1	0	0	0
+;#Flag a14 Otwór LL
+;#Note a14 Otwór LL
+a14	a15	9.44	328	-60
+*entrance a14
+a15	a16	8.54	311	-68
+a16	a17	13.8	290	-61
+a17	a18	16.9	293	-66
+a18	a19	9.8	266	-62
+a19	a20	4.13	218	12
+a20	a21	4.35	226	-35
+a21	a22	6.2	152	-40	; a 22 otwór Nad Dachem
+;#Fix a22 14.01 84.04 -110.14 / Nad Dachem
+;#Flag a22 Otwór ND
+;#Note a22 Otwór ND
+*entrance a22
+a14	qA1	2.82	62	-48
+qA1	qA2	7.55	64	12
+qA2	qA3	7.32	74	30
+qA3	qA4	7.85	156	10
+qA4	qA5	7	185	35
+qA5	qA6	6.3	9	45
+qA6	qA7	9.50	200 	25	; Jaskinia Nad LL
+;#Flag A7  Otwór Nad LL
+;#Note A7  otwór Nad LL
+qA7	qA8	3.45	203	-19
+qA8	qA9	4.1	159	-28
+qA9	qA10	5	205	-29	; A10 poczatek wykopu
+
+*end ptasia
