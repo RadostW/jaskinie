@@ -1,0 +1,16 @@
+; This is an example header for each survex file.
+; Do your best to include this in every new survex file added to this database.
+; Simply paste at the top of each file and fill in the fields as good as you can
+;
+;
+;  OBLIGATORY FIELDS
+;    Cave_name         Centina Glavas
+;    Section_name      Hr_CETINA_01_VERT
+;    Entry_last_update 2013-07-13
+;    Geodetic_datum    WGS84 ; reguired for GPS data
+;    Coordinate_system UTM ; required for GPS data
+;    Surveyed_by       Xavier Vrijdag (instruments)
+;    Surveyed_by       Maarten van Baal (drawings)
+;    Licence           CC BY 3.0
+;    Survey_device     DistoX
+
