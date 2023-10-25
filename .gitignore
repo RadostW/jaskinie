@@ -17,3 +17,6 @@
 *.pos
 *.diff
 *.xml
+
+#Libreoffice
+.~lock
