@@ -36,6 +36,10 @@
 ; Original lines from "JBIALA.SRV"
 ;#FIX  0   E19:52:10.88  N49:14:49.99   1283.0m
 
+; Jaskinia Czarna
+; Original lines from "CZ_Z.SRV"
+; #FIX  1.92   E19:52:13.337   N49:14:39.787  1326.0m
+
 *cs out UTM34N
 *cs LONG-LAT
 *fix otwor_wielka_sniezna         19.926442 49.240183 1689.2
@@ -46,4 +50,9 @@
 *fix otwor_za_siedmioma_progami   19.884690 49.234066 1455
 *fix otwor_bandzioch_kominiarski  19.849283 49.242136 1456.3
 *fix otwor_ptasia                 19.905058	49.239684 1627
-*fix otwor_zimna                  19.869689 49.247219 1283
+*fix otwor_zimna                  19.8723022 49.24434 1283      ; OSM
+*fix otwor_czarna                 19.871910 49.244520 1326.0    ; OSM
+                                   
+;*fix otwor_zimna                  19.869689 49.247219 1283 ; geoportal
+;*fix otwor_czarna                 19.870371 49.244385 1326.0 ; geoportal
+

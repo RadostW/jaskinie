@@ -1,0 +1,25 @@
+;  OBLIGATORY FIELDS
+;    Cave_name         Jaskinia Czarna
+;    Section_name      Main
+;    Entry_last_update unknown
+;    Geodetic_datum    WGS84 ; reguired for GPS data
+;    Coordinate_system UTM ; required for GPS data
+;    Surveyed_by       unknown
+;    Surveyed_by       unknown
+;    Surveyed_by       unknown
+;    Licence           CC BY 2.0
+;    Survey_device     unknown
+
+*equate otwor_czarna czarna.wlot.1.92
+
+*begin czarna
+
+    *title "Jaskinia Czarna"
+    *include wlot
+    *include glowny
+    *include komin_herkulesa
+
+    *equate wlot.1.92 glowny.c1
+    *equate komin_herkulesa.h1 glowny.c27
+
+*end czarna
