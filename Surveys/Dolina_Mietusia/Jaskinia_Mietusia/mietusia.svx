@@ -16,5 +16,12 @@
 
     *title "Jaskinia Mietusia"
     *include do_marwoju
+    *include do_buta
+    *include do_wulkanow
+    *include do_avenu
+    
+    *equate do_marwoju.c109     do_buta.c201
+    *equate do_buta.c274        do_wulkanow.c301 
+    *equate do_wulkanow.c387    do_avenu.c401
 
 *end mietusia

@@ -4,13 +4,13 @@
 ;
 ;
 ;  OBLIGATORY FIELDS
-;    Cave_name         Centina Glavas
-;    Section_name      Hr_CETINA_01_VERT
+;    Cave_name         Jaskinia Czarna
+;    Section_name      Wlotowka do sali Ewy
 ;    Entry_last_update 2013-07-13
 ;    Geodetic_datum    WGS84 ; reguired for GPS data
 ;    Coordinate_system UTM ; required for GPS data
-;    Surveyed_by       Xavier Vrijdag (instruments)
-;    Surveyed_by       Maarten van Baal (drawings)
+;    Surveyed_by       Kuba Puchatek (instruments) - Speleoklub Warszawski
+;    Surveyed_by       Jan Prosiaczek (drawings) - Speloklub Podlaski
 ;    Licence           CC BY 3.0
 ;    Survey_device     DistoX
 

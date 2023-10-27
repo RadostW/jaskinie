@@ -10,7 +10,8 @@
 ;    Licence           CC BY 2.0
 ;    Survey_device     unknown
 
-*equate otwor_czarna czarna.wlot.1.92
+*equate otwor_czarna czarna.glowny.c1
+*equate otwor_czarna_3 czarna.glowny.c130
 
 *begin czarna
 

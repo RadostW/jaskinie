@@ -1,0 +1,69 @@
+;  OBLIGATORY FIELDS
+;    Cave_name         Jaskinia Mietusia
+;    Section_name      Ciag glowny do zachodniego konca IV avenu
+;    Entry_last_update 2023-10-25
+;    Geodetic_datum    WGS84 ; reguired for GPS data
+;    Coordinate_system UTM ; required for GPS data
+;    Surveyed_by       unknown
+;    Surveyed_by       (digitized from plan and elev) Radost Waszkiewicz
+;    Licence           CC BY 2.0
+;    Survey_device     none
+
+*begin do_avenu
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *data cartesian from to easting northing altitude  
+c401  c402  -5.01  -1.27  0.34 ; c401 -> wulkany poczatek
+c402  c403  -9.24  1.11   0.00
+c403  c404  -8.61  1.74   0.00
+c404  c405  -6.73  0.95   1.19
+c405  c406  -8.61  3.17   1.54
+c406  c407  -6.73  1.90   -0.68
+c407  c408  -5.95  2.22   -3.24
+c408  c409  -1.88  3.33   -1.37
+c409  c410  0.78   5.07   0.51
+c410  c411  -2.97  2.22   -6.49
+c411  c412  -5.01  1.11   0.85
+c412  c413  -6.73  1.43   0.00
+c413  c414  -6.73  1.11   -0.51
+c414  c415  -3.76  2.69   -1.02 ; c414 -> poczatek slizgawki
+c415  c416  -3.44  3.48   -2.39
+c416  c417  -3.91  4.12   -2.39
+c417  c418  -5.17  5.70   -2.05
+c418  c419  -4.07  5.54   -0.17
+c419  c420  -5.17  3.48   0.00
+c420  c421  -3.44  1.90   0.17
+c421  c422  -5.17  2.38   0.17
+c422  c423  -2.19  4.43   3.24 ; c422 -> kupa zwiru
+c423  c424  -7.83  0.63   2.39
+c424  c425  -8.92  -2.69  1.54
+c425  c426  -8.61  -0.48  2.05
+c426  c427  -7.36  -2.06  2.39
+c427  c428  -5.01  -1.11  -0.85
+c428  c429  -6.11  -1.11  -1.02
+c429  c430  -5.64  -1.58  -0.51 ; c429 -> kaluze
+c430  c431  -3.60  -1.74  -0.17
+c431  c432  -5.95  -2.85  0.17
+c432  c433  -7.05  -3.48  -0.17
+c433  c434  -4.23  -2.53  1.02
+c434  c435  -3.29  1.27   0.34
+c435  c436  -6.11  -0.32  6.49
+c436  c437  -6.26  -2.06  1.19
+c437  c438  -5.01  -2.85  -1.54
+c438  c439  -5.48  0.63   -0.34
+c439  c440  -4.38  0.00   0.51
+c440  c441  -2.51  2.69   -0.51
+c441  c442  -2.51  2.85   -11.10
+c442  c443  -2.66  2.85   -2.39
+c443  c444  -5.64  -0.79  -1.37
+c444  c445  -4.54  -1.11  0.34 ; c444 -> lacznik aven-rura
+c445  c446  -4.38  0.00   0.51
+c446  c447  -6.89  -0.79  0.00
+c447  c448  -5.32  -1.43  -1.19
+c448  c449  -7.36  0.16   -0.85
+c449  c450  -5.79  0.79   1.37
+c450  c451  -4.70  1.11   0.85
+c451  c452  -4.23  -0.16  2.05
+c452  c453  -5.32  -0.95  1.19 ; c453 -> zachodni koniuszek
+*end do_avenu
