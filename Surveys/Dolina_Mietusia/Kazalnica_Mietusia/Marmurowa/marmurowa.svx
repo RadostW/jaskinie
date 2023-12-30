@@ -1,0 +1,27 @@
+;  OBLIGATORY FIELDS
+;    Cave_name         Jaskinia Marmurowa
+;    Section_name      Main
+;    Entry_last_update unknown
+;    Geodetic_datum    WGS84 ; reguired for GPS data
+;    Coordinate_system UTM ; required for GPS data
+;    Surveyed_by       unknown
+;    Licence           CC BY 2.0
+;    Survey_device     unknown
+
+*equate otwor_marmurowa marmurowa.glowny.0
+
+*begin marmurowa
+    *include glowny
+    *include komin
+    *include stare_dno
+    
+    *equate komin.k0 glowny.8
+    *equate komin.m0 glowny.8
+    *equate komin.d0 glowny.8
+    
+    *equate stare_dno.s0 glowny.10
+    *equate stare_dno.o0 glowny.20
+    *equate stare_dno.p0 glowny.22
+    *equate stare_dno.t0 glowny.10
+    
+*end marmurowa

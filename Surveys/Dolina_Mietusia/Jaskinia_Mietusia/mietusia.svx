@@ -1,5 +1,5 @@
 ;  OBLIGATORY FIELDS
-;    Cave_name         Jaskinia Czarna
+;    Cave_name         Jaskinia Mietusia
 ;    Section_name      Main
 ;    Entry_last_update unknown
 ;    Geodetic_datum    WGS84 ; reguired for GPS data
@@ -15,13 +15,41 @@
 *begin mietusia
 
     *title "Jaskinia Mietusia"
-    *include do_marwoju
-    *include do_buta
-    *include do_wulkanow
-    *include do_avenu
+    
+    ; digitized old plans
+    *include ./Digitized/do_marwoju.svx
+    *include ./Digitized/do_buta.svx
+    *include ./Digitized/do_wulkanow.svx
+    *include ./Digitized/do_avenu.svx
+    *include ./Digitized/do_krakowskiego.svx
     
     *equate do_marwoju.c109     do_buta.c201
     *equate do_buta.c274        do_wulkanow.c301 
     *equate do_wulkanow.c387    do_avenu.c401
+    *equate do_krakowskiego.c0  do_marwoju.c40
+    
+    ; new surveys
+    *include 20221021_mietusia_rura    
+    *include 20221022_mietusia_rura
+    *include 20221023_mietusia_rura_a
+    *include 20221023_mietusia_rura_b
+    ;*include 202210XX_mietusia_rura ; very big outlier
+    
+    *equate 20221021_mietusia_rura.0 do_marwoju.c1
+    *equate 20221022_mietusia_rura.0 do_marwoju.c1
+    *equate 20221023_mietusia_rura_a.0 do_marwoju.c1
+    *equate 20221023_mietusia_rura_b.0 do_marwoju.c1
+    ;*equate 202210XX_mietusia_rura.0 do_marwoju.c1
+    
+    *equate 20221022_mietusia_rura.10  20221021_mietusia_rura.11
+    *equate 20221023_mietusia_rura_a.9 20221021_mietusia_rura.11
+    *equate 20221023_mietusia_rura_b.9 20221021_mietusia_rura.11        
+    *equate 20221023_mietusia_rura_a.38 20221021_mietusia_rura.40
+    *equate 20221023_mietusia_rura_b.38 20221021_mietusia_rura.40
+    
+    *equate do_marwoju.c27 20221021_mietusia_rura.40 ; guess
+    
+    
+    
 
 *end mietusia

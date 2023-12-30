@@ -1,0 +1,100 @@
+;  OBLIGATORY FIELDS
+;    Cave_name         Jaskinia Marmurowa
+;    Section_name      Ciag glowny do Piaskownic II
+;    Entry_last_update 1986-05-01
+;    Geodetic_datum    WGS84 ; reguired for GPS data
+;    Coordinate_system UTM ; required for GPS data
+;    Surveyed_by       T. Pryjma
+;    Surveyed_by       M. Adamiski
+;    Licence           CC BY 2.0
+;    Survey_device     unknown
+
+;#units meters order=DAV
+;#units A=D V=D
+;#prefix marmurowa
+;#fix 	0	E19:54:2.93 N49:14:21.81   1770.6m
+;wsp. odczytal K. D. z mapy.geoportal.gov.pl/imap
+;#note	0	/Marmurowa
+;#flag	0	/Marmurowa
+;#date 1986-05-01
+;Tomasz Pryjma, M. Adamiski
+;otwor - Piaskownic II
+*begin glowny
+  *units tape meters
+  *units compass degrees
+  *units clino degrees
+  *data normal from to tape compass clino
+0	1	1.0	0	90
+*entrance 0
+1	2	7.5	191	-43
+2	3	4.5	0	-90
+3	4	12.7	0	-90
+4	5	7.8	198	8
+5	6	4.8	0	90
+6	7	4.5	208	-22
+7	8	1.1	0	90
+8	9	7.6	270	-70
+9	10	20	0	-90
+10	11	6.5	243	-24
+11	12	1.5	0	90
+12	13	5.4	125	-44
+13	14	2.7	108	-38
+14	15	1.5	0	90
+15	16	2.6	222	-41
+;otwor - Piaskownic II
+;#units meters order=DVA
+;#units A=D V=D
+  *data normal from to tape clino compass
+16	17	2.3	-58	225
+17	18	0.6	90	0
+18	19	2.7	-85	262
+19	20	0.7	90	0
+20	21	19	-90	0
+21	22	28	-90	0
+22	23	9.5	22	276
+23	24	7.0	-8	59
+24	25	4.0	12	98
+25	26	3.6	-1	161
+26	27	3.0	0	100
+27	28	2.3	-8	190
+28	29	3.0	-5	280
+29	30	3.4	-22	305
+30	31	7.6	30	290
+31	32	1.5	90	0
+;otwor - Piaskownic II
+;#units meters order=DAV
+;#units A=D V=D
+  *data normal from to tape compass clino
+32	33	3.7	176	-37
+33	34	1.2	170	-25
+34	35	2.0	230	-30
+35	36	4.0	0	90
+35	37	2.0	340	75
+35	38	6.0	0	-90
+38	39	3.0	15	-21
+39	40	3.5	2	-15
+38	41	3.0	182	-30
+41	42	2.0	175	-28
+42	43	2.2	0	-90
+43	44	2.0	350	-18
+44	45	3.5	340	0
+43	46	3.0	119	0
+46	47	3.5	148	25
+46	48	2.0	0	-90
+;otwor - Piaskownic II
+48	49	1.5	0	90
+49	50	1.7	145	-42
+50	51	6.0	0	-90
+51	52	2.0	110	0
+52	53	17	31	43
+52	54	2.0	98	8
+52	55	11.5	185	-35
+55	56	5.0	0	90
+56	57	3.0	182	-12
+57	58	2.4	210	-28
+58	59	1.5	190	-32
+59	60	1.5	0	-90
+60	61	5.0	20	-38
+60	62	2.4	236	6
+62	63	3.5	0	-90
+*end glowny

@@ -13,6 +13,11 @@
   *units tape meters
   *units compass degrees
   *units clino degrees
+  
+  *sd easting  1 metres ; very large - prefer new data whenever possible
+  *sd northing 1 meters
+  *sd altitude 1 meters
+  
   *data cartesian from to easting northing altitude  
 *entrance c1
 c1    c2    -4.46  -1.15  -2.62 ; c1 -> otwor

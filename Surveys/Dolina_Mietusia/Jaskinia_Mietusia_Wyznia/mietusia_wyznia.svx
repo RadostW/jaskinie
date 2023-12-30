@@ -1,0 +1,20 @@
+;  OBLIGATORY FIELDS
+;    Cave_name         Jaskinia Mietusia Wyznia
+;    Section_name      Main
+;    Entry_last_update unknown
+;    Geodetic_datum    WGS84 ; reguired for GPS data
+;    Coordinate_system UTM ; required for GPS data
+;    Surveyed_by       unknown
+;    Surveyed_by       unknown
+;    Surveyed_by       unknown
+;    Licence           CC BY 2.0
+;    Survey_device     unknown
+
+*equate otwor_mietusia_wyznia mietusia_wyznia.glowny.c0
+
+*begin mietusia_wyznia
+
+    *title "Jaskinia Mietusia"
+    *include glowny
+    
+*end mietusia_wyznia
