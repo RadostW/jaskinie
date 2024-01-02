@@ -1,0 +1,17 @@
+;  OBLIGATORY FIELDS
+;    Cave_name         Jaskinia Zimna
+;    Section_name      Main
+;    Entry_last_update 2024-01-01
+;    Author            Radost Waszkiewicz - Speleoklub Warszawski
+;    Licence           CC BY SA 4.0
+;    Survey_device     Digitized from plan
+
+*equate otwor_zimna_polnocny zimna.glowny.c1
+*equate otwor_zimna_poludniowy zimna.glowny.c177
+
+*begin zimna
+
+    *title "Jaskinia Zimna"
+    *include ./Digitized/glowny.svx
+
+*end zimna

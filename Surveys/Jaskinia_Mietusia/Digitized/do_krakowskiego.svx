@@ -1,0 +1,40 @@
+ 
+;  OBLIGATORY FIELDS
+;    Cave_name         Jaskinia Mietusia
+;    Section_name      Do Krakowskiego Korytarza
+;    Entry_last_update 2023-12-23
+;    Author            Radost Waszkiewicz - Speleoklub Warszawski
+;    Licence           CC BY SA 4.0
+;    Survey_device     Digitized from plan and elevation
+
+    *begin do_krakowskiego
+    *units tape meters
+    *units compass degrees
+    *units clino degrees
+    
+    *sd easting  1 metres ; very large - prefer new data whenever possible
+    *sd northing 1 meters
+    *sd altitude 1 meters
+    
+    *data cartesian from to easting northing altitude
+    c0  c1  -4.52   2.93   1.25
+    c1  c2  -2.46   2.15   2.99
+    c2  c3  -0.29   5.18  19.09
+    c3  c4  -1.18   5.08  20.25
+    c4  c5  -7.86   0.49   5.11
+    c5  c6  -5.60  -0.20   5.69
+    c6  c7  -6.39  -0.68   4.53
+    c7  c8  -3.34  -3.62   2.12
+    c8  c9  -1.57  -3.71   2.12
+    c9  c10  -6.19  -2.54  -1.35
+    c10  c11  -8.64  -0.39   0.29
+    c11  c12  -4.52   0.29   0.39
+    c12  c13  -0.39   4.10   1.45
+    c13  c14  -3.63   2.83   0.87
+    c14  c15   0.00   6.64   0.19
+    c15  c16   1.47   7.33   0.39
+    c16  c17  -6.97   0.29  -1.06
+    c17  c18  -6.58   0.20   0.19
+    c18  c19  -5.89   0.39  -2.70
+
+    *end do_krakowskiego

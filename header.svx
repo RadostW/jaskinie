@@ -1,16 +1,17 @@
 ; This is an example header for each survex file.
 ; Do your best to include this in every new survex file added to this database.
 ; Simply paste at the top of each file and fill in the fields as good as you can
+; Make sure the authors understand they are licensing their work under CC BY-SA-4.0
 ;
 ;
 ;  OBLIGATORY FIELDS
-;    Cave_name         Jaskinia Czarna
-;    Section_name      Wlotowka do sali Ewy
+;    Cave_name         Jaskinia Stumilowa
+;    Section_name      Sala Klapouchego
 ;    Entry_last_update 2013-07-13
 ;    Geodetic_datum    WGS84 ; reguired for GPS data
-;    Coordinate_system UTM ; required for GPS data
-;    Surveyed_by       Kuba Puchatek (instruments) - Speleoklub Warszawski
-;    Surveyed_by       Jan Prosiaczek (drawings) - Speloklub Podlaski
-;    Licence           CC BY 3.0
-;    Survey_device     DistoX
+;    Coordinate_system UTM   ; required for GPS data
+;    Author            Kuba Puchatek - Speleoklub Warszawski
+;    Author            Jan Prosiaczek - Speloklub Podlaski
+;    Licence           CC BY SA 4.0
+;    Survey_device     Magiczny patyk
 

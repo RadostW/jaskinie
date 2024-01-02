@@ -1,0 +1,50 @@
+;  OBLIGATORY FIELDS
+;    Cave_name         Jaskinia Mietusia
+;    Section_name      Main
+;    Entry_last_update 2023-12-31
+;    Author            Radost Waszkiewicz - Speleoklub Warszawski
+;    Licence           CC BY SA 4.0
+;    Survey_device     None
+
+*equate otwor_mietusia mietusia.do_marwoju.c1
+
+*begin mietusia
+
+    *title "Jaskinia Mietusia"
+    
+    ; digitized old plans
+    *include ./Digitized/do_marwoju.svx
+    *include ./Digitized/do_buta.svx
+    *include ./Digitized/do_wulkanow.svx
+    *include ./Digitized/do_avenu.svx
+    *include ./Digitized/do_krakowskiego.svx
+    *include ./Digitized/do_kamiennych_schodkow.svx
+    
+    *equate do_marwoju.c109     do_buta.c201
+    *equate do_buta.c274        do_wulkanow.c301 
+    *equate do_wulkanow.c387    do_avenu.c401
+    *equate do_krakowskiego.c0  do_marwoju.c40
+    *equate do_buta.c225        do_kamiennych_schodkow.c17
+    
+    ; new surveys
+    *include 20221021_mietusia_rura_a
+    *include 20221022_mietusia_rura
+    *include 20221023_mietusia_rura_a
+    *include 20221023_mietusia_rura_b
+    ;*include 20221021_mietusia_rura_b ; very big outlier
+    
+    *equate 20221021_mietusia_rura.0 do_marwoju.c1
+    *equate 20221022_mietusia_rura.0 do_marwoju.c1
+    *equate 20221023_mietusia_rura_a.0 do_marwoju.c1
+    *equate 20221023_mietusia_rura_b.0 do_marwoju.c1
+    ;*equate 20221021_mietusia_rura_b.0 do_marwoju.c1
+    
+    *equate 20221022_mietusia_rura.10  20221021_mietusia_rura.11
+    *equate 20221023_mietusia_rura_a.9 20221021_mietusia_rura.11
+    *equate 20221023_mietusia_rura_b.9 20221021_mietusia_rura.11        
+    *equate 20221023_mietusia_rura_a.38 20221021_mietusia_rura.40
+    *equate 20221023_mietusia_rura_b.38 20221021_mietusia_rura.40
+    
+    *equate do_marwoju.c27 20221021_mietusia_rura.40 ; guess
+    
+*end mietusia

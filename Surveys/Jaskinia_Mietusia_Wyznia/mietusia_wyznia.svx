@@ -1,0 +1,16 @@
+;  OBLIGATORY FIELDS
+;    Cave_name         Jaskinia Mietusia Wyznia
+;    Section_name      Main
+;    Entry_last_update 2024-01-01
+;    Author            Radost Waszkiewicz - Speleoklub Warszawski
+;    Licence           CC BY SA 4.0
+;    Survey_device     None
+
+*equate otwor_mietusia_wyznia mietusia_wyznia.glowny.c0
+
+*begin mietusia_wyznia
+
+    *title "Jaskinia Mietusia"
+    *include ./Digitized/glowny.svx
+    
+*end mietusia_wyznia

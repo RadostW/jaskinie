@@ -1,0 +1,35 @@
+ 
+;  OBLIGATORY FIELDS
+;    Cave_name         Jaskinia Mietusia
+;    Section_name      Od poczatku Marwoju do Kamiennych Schodkow
+;    Entry_last_update 2024-01-01
+;    Author            Radost Waszkiewicz - Speleoklub Warszawski
+;    Licence           CC BY SA 4.0
+;    Survey_device     Digitized from plan and elevation
+
+    *begin do_kamiennych_schodkow
+    *units tape meters
+    *units compass degrees
+    *units clino degrees
+    *data cartesian from to easting northing altitude
+    ;c0  c1  -3.60  -4.04  -0.20
+    ;c1  c2  -2.01  -6.63  -0.29
+    ;c2  c3  -3.60  -6.20   3.82
+    ;c3  c4  -3.17  -4.04   1.57
+    ;c4  c5  -4.32  -4.76   1.86
+    ;c5  c6  -6.04   0.29  -0.00
+    ;c6  c7  -7.77   2.31   0.49
+    ;c7  c8  -4.75   1.15  -0.00
+    ;c8  c9  -6.33   1.73  -1.47
+    ;c9  c10  -5.61   1.15   0.10
+    ;c10  c11  -7.91   1.59   0.78
+    ;c11  c12  -6.19   1.15   0.49
+    ;c12  c13  -6.33   0.58   0.10
+    ;c13  c14  -7.34   1.01   0.49
+    ;c14  c15  -4.89   0.58  -0.00
+    ;c15  c16  -6.62   1.01   1.86
+    ;c16  c17  -2.45   0.72   4.11
+    c17  c18  -0.29  -4.76   2.25
+    c18  c19   0.00  -4.90   1.08
+    c19  c20  -2.30  -4.18   1.67
+    *end do_kamiennych_schodkow
