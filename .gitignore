@@ -21,3 +21,9 @@
 #Libreoffice
 .~lock*
 .~lock.status.csv#
+
+#Python
+venv/
+__pycache__/
+*.py[cod]
+

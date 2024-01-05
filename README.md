@@ -8,7 +8,7 @@ We try to keep uniform format of metadata. See example in [header.svx](./header.
 
 ## License and authors
 
-This repository as a colleciton of works is licensed under CC BY SA 4.0 license. You can find a list of authors, creation dates and licenses of individual surveys inside the [metadata](./compliance.md) table.
+This repository as a colleciton of works is licensed under CC BY SA 4.0 license. You can find a list of authors, creation dates and licenses of individual surveys inside the [metadata](./Docs/compliance.md) table.
 
 ## Contributors
       

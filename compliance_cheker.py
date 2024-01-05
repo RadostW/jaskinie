@@ -6,7 +6,7 @@ from py_markdown_table.markdown_table import markdown_table
 
 
 directory_path = "./"
-compliance_file_name = "compliance.md"
+compliance_file_name = "./Docs/compliance.md"
 
 surveys = list()
 all_authors = set()
