@@ -1,1 +1,3 @@
 mkdocs
+py-markdown-table
+mkdocs-material
