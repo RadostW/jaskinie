@@ -1,65 +1,27 @@
-Jaskiniowy Kataster Tatr
-===================================
+# Caves of the Tatra Mountains
 
-Cześć,
+This repository collects data about caves of the Tatra Mountains.
 
-próbuję reaktywować Jaskiniowy Kataster Tatr bez użycia programu Walls który nie działa pod linuxem.
+## Metadata format
 
+We try to keep uniform format of metadata. See example in [header.svx](./header.svx).
 
-Licencja
-========
-Oryginalne dane w formacie walls
-LICENCE http://creativecommons.org/licenses/by-sa/2.0/
+## License and authors
 
-Jaskinie w systemie survex:
+This repository as a colleciton of works is licensed under CC BY SA 4.0 license. You can find a list of authors, creation dates and licenses of individual surveys inside the [metadata](./compliance.md) table.
 
-Jaskinie do przerobienia (format walls):
+## Contributors
+      
+|        Name        |         Club        |
+|--------------------|---------------------|
+|    Jan Grzeszek    |Speleoklub Warszawski|
+|   Joanna Jurczyk   |Speleoklub Warszawski|
+|  Konrad Chojnacki  |Speleoklub Warszawski|
+| Marcin Lewandowski |Speleoklub Warszawski|
+|  Pawel Nowikowski  |Speleoklub Warszawski|
+| Radost Waszkiewicz |Speleoklub Warszawski|
+|Stanislaw Mielarczek|Speleoklub Warszawski|
 
-Czerwona Studzienka
-Dmuchawa
-Dziura pod Świstową Studnią
-Dziurka w Trawce
-Jaskinia Bańdzioch Kominiarski
-Jaskinia Biała (Zimna)
-Jaskinia Goryczkowa
-Jaskinia Harda
-Jaskinia Kalacka
-Jaskinia Kozia
-Jaskinia Lodowa Małołącka
-Jaskinia Lodowa Miętusia
-Jaskinia Mała w Mułowej
-Jaskinia Małołącka
-Jaskinia Marmurowa
-Jaskinia Mylna
-Jaskinia Nova Kresanica
-Jaskinia Obcasna Vyvieracka
-Jaskinia Obłazkowa
-Jaskinia pod Progiem
-Jaskinia pod Śnieżną Studnią
-Jaskinia pod Zamkiem (fragment)
-Jaskinia Poszukiwaczy Skarbów (fragment)
-Jaskinia przy Jędrusiowej Dziurze
-Jaskinia przy Przechodzie
-Jaskinia Raptawicka
-Jaskinia Świstacza
-Jaskinia Śnieżna Studnia
-Jaskinia Śpiących Rycerzy (fragment)
-Jaskinia w Wielkiej Turni
-Jaskinia Wielka Śnieżna
-Kamienne Mleko
-Koprowa Studnia
-Mnichowa Studnia Wyżnia
-Ptasia Studnia
-Schron pod Jędrusiową Dziurą
-Studnia na Szlaku
-Studnia przy Przechodzie
-Studnia w Kazalnicy
-System Jaskinia za Siedmiu Progami-Jaskinia Pośrednia-Jaskinia Wysoka
-Szara Studnia
-Szczelina Miętusia
-Wilczy Schron
-Zaspałkowa Szczelina
-Zbójecka Dziura
-Ziobrowa i Jaskinia pod Niznia Zbojnicka Turnia
-Zoska - Zagonna Studnia
-Zwolińskiego
+## Why start over
+
+There was an eariler attempt at this [Jaskiniowy-Kataster-Tatr-Zachodnich](https://github.com/dlubom/Jaskiniowy-Kataster-Tatr-Zachodnich/). It had some problems: it compiled old survey data which has unknown quality and unknown license, it used `walls` software which is not open. 

@@ -2,7 +2,7 @@
 ;    Cave_name         Jaskinia Mietusia
 ;    Section_name      Ciag Glowny do Zielonego Buta
 ;    Entry_last_update 2023-10-25
-;    Author            Radost Waszkiewicz
+;    Author            Radost Waszkiewicz - Speleoklub Warszawski
 ;    Licence           CC BY SA 4.0
 ;    Survey_device     Digitized from plan and elevation
 

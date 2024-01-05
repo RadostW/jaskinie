@@ -2,7 +2,7 @@
 ;    Cave_name         Jaskinia Czarna
 ;    Section_name      Main
 ;    Entry_last_update 2024-01-01
-;    Author            Radost Waszkiewicz
+;    Author            Radost Waszkiewicz - Speleoklub Warszawski
 ;    Licence           CC BY SA 4.0
 ;    Survey_device     Digitized from plan and elevation
 

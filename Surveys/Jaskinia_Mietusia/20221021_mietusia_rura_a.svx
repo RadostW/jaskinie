@@ -4,7 +4,7 @@
 ;    Entry_last_update 2022-10-21
 ;    Author            Stanislaw Mielarczek - Speleoklub Warszawski
 ;    Author            Joanna Jurczyk - Speleoklub Warszawski
-;    Licence           unknown
+;    Licence           CC BY SA 4.0
 ;    Survey_device     unknown
 
 ; 2023.12.30 created by TopoDroid v 6.2.11

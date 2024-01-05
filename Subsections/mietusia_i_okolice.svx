@@ -6,9 +6,9 @@
 ;    Licence           CC BY SA 4.0
 ;    Survey_device     None
 
-*include ./../Surveys/Dolina_Koscieliska/Organy/Jaskinia_Czarna/czarna.svx
-*include ./../Surveys/Dolina_Mietusia/Jaskinia_Mietusia/mietusia.svx
-*include ./../Surveys/Dolina_Mietusia/Jaskinia_Mietusia_Wyznia/mietusia_wyznia.svx
+*include ./../Surveys/Jaskinia_Czarna/czarna.svx
+*include ./../Surveys/Jaskinia_Mietusia/mietusia.svx
+*include ./../Surveys/Jaskinia_Mietusia_Wyznia/mietusia_wyznia.svx
 
 *include ./../GPS/gps.svx
 

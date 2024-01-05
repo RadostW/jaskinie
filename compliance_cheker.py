@@ -1,12 +1,15 @@
 import os
 import re
+import subprocess
+import tempfile
 from py_markdown_table.markdown_table import markdown_table
 
 
 directory_path = "./"
-output_file_name = "compliance.md"
+compliance_file_name = "compliance.md"
 
 surveys = list()
+all_authors = set()
 
 # Traverse through the directory and its subdirectories
 for dirpath, dirnames, filenames in os.walk(directory_path):
@@ -74,6 +77,13 @@ for dirpath, dirnames, filenames in os.walk(directory_path):
                         survey_device = try_get_field(compliance_block, "Survey_device")
 
                         authors = try_get_all_fields(compliance_block, "Author")
+                        if authors and len(authors) > 0:
+                            for author in authors:
+                                if "Puchatek" in author:
+                                    continue
+                                if "Prosiaczek" in author:
+                                    continue
+                                all_authors.add(author)
 
                         if not cave_name:
                             print(f"Cave_name missing in: {file_path}")
@@ -130,6 +140,24 @@ for dirpath, dirnames, filenames in os.walk(directory_path):
                     else:
                         overall = ":pick:"
 
+                    with tempfile.NamedTemporaryFile(
+                        delete=False, suffix=".3d"
+                    ) as temp_file:
+                        output_file_name = temp_file.name
+                        result = subprocess.run(
+                            ["cavern", "-s", file_path, "-o", output_file_name],
+                            capture_output=True,
+                            text=True,
+                        )
+                        if os.path.exists(output_file_name):
+                            os.remove(output_file_name)
+
+                    if result.returncode == 0:
+                        compile_status = ":green_apple:"
+                    else:
+                        print(f"Unable to cavern {file_path}")
+                        compile_status = ":boom:"
+
                     survey_info = {
                         "overall": str(overall),
                         "cave_name": str(cave_name),
@@ -138,6 +166,7 @@ for dirpath, dirnames, filenames in os.walk(directory_path):
                         "license": str(license),
                         "survey_device": str(survey_device),
                         "authors": str(authors_string),
+                        "compiles": str(compile_status),
                         "filename": f"[{file_name}]({file_path})",
                     }
 
@@ -145,6 +174,32 @@ for dirpath, dirnames, filenames in os.walk(directory_path):
 
             except Exception as e:
                 print(f"Error reading {file_path}: {e}")
+
+
+def parse_name_and_club(input_str):
+    parts = input_str.split(" - ")
+
+    # Check if both parts are present
+    if len(parts) == 2:
+        name, club = parts
+        return {"name": name, "club": club}
+    else:
+        return {"name": input_str, "club": ""}
+
+
+print()
+print("All authors:")
+print(
+    markdown_table([parse_name_and_club(author) for author in sorted(all_authors)])
+    .set_params(
+        row_sep="markdown",
+        padding_width=0,
+        padding_weight="centerleft",
+        quote=False,
+    )
+    .get_markdown()
+)
+
 
 md_table = (
     markdown_table(sorted(surveys, key=lambda s: (s["cave_name"], s["section_name"])))
@@ -157,7 +212,7 @@ md_table = (
     .get_markdown()
 )
 
-with open(output_file_name, "w") as of:
+with open(compliance_file_name, "w") as of:
     of.write(
         "\n".join(
             [
