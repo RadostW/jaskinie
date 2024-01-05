@@ -5,7 +5,7 @@
 ;    Author            Stanislaw Mielarczek - Speleoklub Warszawski
 ;    Author            Joanna Jurczyk - Speleoklub Warszawski
 ;    Licence           CC BY SA 4.0
-;    Survey_device     unknown
+;    Survey_device     DistoX
 
 ; 2023.12.30 created by TopoDroid v 6.2.11
 ; mietusia_po_tescie

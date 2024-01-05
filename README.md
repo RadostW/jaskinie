@@ -12,13 +12,9 @@ This repository as a colleciton of works is licensed under CC BY SA 4.0 license.
 
 ## Contributors
       
-|        Name        |         Club        |
+|        name        |         club        |
 |--------------------|---------------------|
-|    Jan Grzeszek    |Speleoklub Warszawski|
 |   Joanna Jurczyk   |Speleoklub Warszawski|
-|  Konrad Chojnacki  |Speleoklub Warszawski|
-| Marcin Lewandowski |Speleoklub Warszawski|
-|  Pawel Nowikowski  |Speleoklub Warszawski|
 | Radost Waszkiewicz |Speleoklub Warszawski|
 |Stanislaw Mielarczek|Speleoklub Warszawski|
 

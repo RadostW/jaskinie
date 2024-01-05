@@ -28,22 +28,22 @@
     
     ; new surveys
     *include 20221021_mietusia_rura_a
-    *include 20221022_mietusia_rura
-    *include 20221023_mietusia_rura_a
-    *include 20221023_mietusia_rura_b
+    ;*include 20221022_mietusia_rura
+    ;*include 20221023_mietusia_rura_a
+    ;*include 20221023_mietusia_rura_b
     ;*include 20221021_mietusia_rura_b ; very big outlier
     
     *equate 20221021_mietusia_rura.0 do_marwoju.c1
-    *equate 20221022_mietusia_rura.0 do_marwoju.c1
-    *equate 20221023_mietusia_rura_a.0 do_marwoju.c1
-    *equate 20221023_mietusia_rura_b.0 do_marwoju.c1
+    ;*equate 20221022_mietusia_rura.0 do_marwoju.c1
+    ;*equate 20221023_mietusia_rura_a.0 do_marwoju.c1
+    ;*equate 20221023_mietusia_rura_b.0 do_marwoju.c1
     ;*equate 20221021_mietusia_rura_b.0 do_marwoju.c1
     
-    *equate 20221022_mietusia_rura.10  20221021_mietusia_rura.11
-    *equate 20221023_mietusia_rura_a.9 20221021_mietusia_rura.11
-    *equate 20221023_mietusia_rura_b.9 20221021_mietusia_rura.11        
-    *equate 20221023_mietusia_rura_a.38 20221021_mietusia_rura.40
-    *equate 20221023_mietusia_rura_b.38 20221021_mietusia_rura.40
+    ;*equate 20221022_mietusia_rura.10  20221021_mietusia_rura.11
+    ;*equate 20221023_mietusia_rura_a.9 20221021_mietusia_rura.11
+    ;*equate 20221023_mietusia_rura_b.9 20221021_mietusia_rura.11        
+    ;*equate 20221023_mietusia_rura_a.38 20221021_mietusia_rura.40
+    ;*equate 20221023_mietusia_rura_b.38 20221021_mietusia_rura.40
     
     *equate do_marwoju.c27 20221021_mietusia_rura.40 ; guess
     
