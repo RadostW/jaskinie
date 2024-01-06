@@ -27,3 +27,6 @@ venv/
 __pycache__/
 *.py[cod]
 
+
+#Mkdocs
+Docs/site/
