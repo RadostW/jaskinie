@@ -1,21 +1,19 @@
-# Welcome to MkDocs
+# Caves of the Tatra Mountains
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Consider improving these by contributing to the github repository.
 
-This is just an emoji :smile: !
+## 3D previews
 
-Another :green_apple:
+* [Jaskinia Czarna](czarna_3d.html)
+* [Jaskinia Miętusia](mietusia_3d.html)
+* [Jaskinia Miętusia Wyżnia](mietusia_wyznia_3d.html)
 
-## Commands
+## Cave descriptions
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+* [Jaskinia Czarna](jaskinia_czarna_3d.md)
+* [Jaskinia Miętusia](jaskinia_mietusia.md)
+* [Jaskinia Miętusia Wyżnia](jaskinia_mietusia_wyznia.md)
 
-## Project layout
+## License
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Cave descriptions are distributed under CC BY SA 4.0 license.
