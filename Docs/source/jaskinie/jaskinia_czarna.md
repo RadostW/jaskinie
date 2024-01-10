@@ -11,7 +11,7 @@ Opis ciągu głownego normalnym tekstem, _boczne partie italiką_, rzadko odwied
 ## Otwory
 
 <figure class="inline end" markdown>
-  ![Otwór główny](../photos/Jaskinia_Czarna/Jaskinia_Czarna_Wejscie.jpg){width="400", align=left}
+  ![Otwór główny](./photos/Jaskinia_Czarna/Jaskinia_Czarna_Wejscie.jpg){width="400", align=left}
   <figcaption>Otwór główny. (2024-01-09, fot. Harry Kettle - Cambridge University Caving Club - CC BY SA 4.0)</figcaption>
 </figure>
 
@@ -92,7 +92,7 @@ Dalsza droga wiedzie w kierunku wschodnim nieznacznie w górę, korytarzem 4-met
 Wracamy do głównego ciągu i wspinamy się przy wspomnianym uprzednio moście w prawo, 6 metrów w górę po żłobkowanej ścianie, po której okresowo spływa woda. W tym miejscu, ze stropu pokrytego kotłami wirowymi, pada deszcz podziemny. Za progiem, jaki tworzy tu most, trawersujemy po prawej ścianie Studnię Herkulesa niewyraźną i nachyloną półką skalną (III), którą po około 10 metrach osiągamy korytarz. Wygodniej jest za filarem zjechać kilkanaście metrów w dół, do niewielkiej półki, z której już łatwo można wyjść do góry, do zachodniej krawędzi studni. Z półki opada 3-metrowy próg, pod którym zaczyna się uprzednio wspomniany zjazd w kierunku syfonu.
 
 <figure class="inline end" markdown>
-  ![Nad Trawersem Herkulesa](../photos/Jaskinia_Czarna/Jaskinia_Czarna_Nad_Trawersem_Herhulesa.jpg){width="300", align=left}
+  ![Nad Trawersem Herkulesa](./photos/Jaskinia_Czarna/Jaskinia_Czarna_Nad_Trawersem_Herhulesa.jpg){width="300", align=left}
   <figcaption>Nad Trawersem Herkulesa. (2024-01-09, fot. Harry Kettle - Cambridge University Caving Club - CC BY SA 4.0)</figcaption>
 </figure>
 
@@ -107,7 +107,7 @@ Wracamy do wcześniej wspomnianego rozstaju dróg za trawersem Studni Herkulesa.
 ## Komin Węgierski
 
 <figure class="inline end" markdown>
-  ![Komin Węgierski](../photos/Jaskinia_Czarna/Jaskinia_Czarna_Komin_Wegierski.jpg){width="300", align=left}
+  ![Komin Węgierski](./photos/Jaskinia_Czarna/Jaskinia_Czarna_Komin_Wegierski.jpg){width="300", align=left}
   <figcaption>Komin Węgierski. (2024-01-09, fot. Harry Kettle - Cambridge University Caving Club - CC BY SA 4.0)</figcaption>
 </figure>
 
@@ -116,7 +116,7 @@ Sam Komin Węgierski to szeroki od 6 do 8 metrów, stromo nachylony (50-60 stopn
 ### _Partie Królewskie_
 
 <figure class="inline end" markdown>
-  ![Partie Królewskie](../photos/Jaskinia_Czarna/Jaskinia_Czarna_Partie_Krolewskie.jpg){width="300", align=left}
+  ![Partie Królewskie](./photos/Jaskinia_Czarna/Jaskinia_Czarna_Partie_Krolewskie.jpg){width="300", align=left}
   <figcaption>Partie Królewskie (2023-03-01, fot. Radost Waszkiewicz - Speleoklub Warszawski - CC BY SA 4.0)</figcaption>
 </figure>
 
