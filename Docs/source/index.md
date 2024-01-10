@@ -1,19 +1,13 @@
-# Caves of the Tatra Mountains
+# Indeks
 
-Consider improving these by contributing to the github repository.
+## Podgląd 3D
 
-## 3D previews
+* [Jaskinia Czarna](/modele_3d/jaskinia_czarna_3d/)
+* [Jaskinia Miętusia](/modele_3d/jaskinia_mietusia_3d/)
 
-* [Jaskinia Czarna](czarna_3d.html)
-* [Jaskinia Miętusia](mietusia_3d.html)
-* [Jaskinia Miętusia Wyżnia](mietusia_wyznia_3d.html)
+* [Zestawienie Jaskiń](/modele_3d/all_3d/)
 
-## Cave descriptions
+## Opisy jaskiń
 
-* [Jaskinia Czarna](jaskinia_czarna_3d.md)
-* [Jaskinia Miętusia](jaskinia_mietusia.md)
-* [Jaskinia Miętusia Wyżnia](jaskinia_mietusia_wyznia.md)
-
-## License
-
-Cave descriptions are distributed under CC BY SA 4.0 license.
+* [Jaskinia Czarna](/jaskinie/jaskinia_czarna)
+* [Jaskinia Miętusia](/jaskinie/jaskinia_mietusia/)

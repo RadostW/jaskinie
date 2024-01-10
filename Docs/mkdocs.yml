@@ -1,14 +1,43 @@
-site_name: Caves of the Tatra Mountains
+site_name: Jaskinie Tatr
+
+repo_url: https://radostw.github.io/jaskinie/
+repo_name: Jaskinie Tatr
 
 docs_dir: ./source
+
+nav:
+  - index.md 
+  - ... | jaskinie/*     
+  - Modele 3D:
+    - ... | flat | modele_3d/*.md
+  - ...
 
 theme:
   name: material
   palette:
     scheme: slate
+  language: pl
 
-markdown_extensions:
+markdown_extensions:  
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg  
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
+
+plugins:
+  - glightbox
+  - search
+  - awesome-pages
+
+
+extra_javascript:
+  - CaveView/js/CaveView2.js  
+
+extra_css:
+  - CaveView/css/caveview.css
+  - css/figures.css
