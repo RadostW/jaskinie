@@ -1,9 +1,9 @@
 site_name: Jaskinie Tatr
 
+docs_dir: ./source
+
 repo_url: https://radostw.github.io/jaskinie/
 repo_name: Jaskinie Tatr
-
-docs_dir: ./source
 
 nav:
   - index.md 
@@ -29,17 +29,13 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
 
-
-
 plugins:
   - glightbox
   - search
   - awesome-pages
-
 
 extra_javascript:
   - CaveView/js/CaveView2.js  
 
 extra_css:
   - CaveView/css/caveview.css
-  - css/figures.css
