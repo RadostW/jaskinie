@@ -1,11 +1,6 @@
 # Jaskinia Czarna 3D
 
-<head>	
-	<link type="text/css" href="./CaveView/css/caveview.css" rel="stylesheet"/>	
-</head>
-
 <body onload="onload();" >
-<script type="text/javascript" src="/CaveView/js/CaveView2.js" ></script>
 
 <script type="text/javascript" >
 
@@ -31,7 +26,7 @@ function onload () {
 
 	const ui = new CV2.CaveViewUI( viewer );
 
-	ui.loadCave("/3d_files/czarna.3d" );	
+	ui.loadCave("../3d_files/czarna.3d" );	
 
 }
 </script>
