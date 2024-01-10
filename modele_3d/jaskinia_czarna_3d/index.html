@@ -488,22 +488,7 @@
 
 
 <h1 id="jaskinia-czarna-3d">Jaskinia Czarna 3D</h1>
-<p><head><br />
-    <link type="text/css" href="./CaveView/css/caveview.css" rel="stylesheet"/> 
- <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
-        html.glightbox-open { overflow: initial; height: 100%; }
-        .gslide-title { margin-top: 0px; user-select: text; }
-        .gslide-desc { color: #666; user-select: text; }
-        .gslide-image img { background: white; }
-        
-            .gscrollbar-fixer { padding-right: 15px; }
-            .gdesc-inner { font-size: 0.75rem; }
-            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
-            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
-            </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head></p>
 <body onload="onload();" >
-<script type="text/javascript" src="/CaveView/js/CaveView2.js" ></script>
 
 <script type="text/javascript" >
 
@@ -529,7 +514,7 @@ function onload () {
 
     const ui = new CV2.CaveViewUI( viewer );
 
-    ui.loadCave("/3d_files/czarna.3d" );    
+    ui.loadCave("../3d_files/czarna.3d" );  
 
 }
 </script>
