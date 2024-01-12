@@ -11,12 +11,14 @@ We try to keep uniform format of metadata. See example in [header.svx](./header.
 This repository as a colleciton of works is licensed under CC BY SA 4.0 license. You can find a list of authors, creation dates and licenses of individual surveys inside the [metadata](./compliance.md) table.
 
 ## Contributors
-      
+
 |        name        |         club        |
 |--------------------|---------------------|
+|    Jan Grzeszek    |Speleoklub Warszawski|
 |   Joanna Jurczyk   |Speleoklub Warszawski|
-| Radost Waszkiewicz |Speleoklub Warszawski|
 |Stanislaw Mielarczek|Speleoklub Warszawski|
+| Radost Waszkiewicz |Speleoklub Warszawski|
+
 
 ## Why start over
 
