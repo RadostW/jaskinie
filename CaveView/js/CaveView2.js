@@ -4,7 +4,7 @@
 	(global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.CV2 = {}));
 })(this, (function (exports) { 'use strict';
 
-	const VERSION = '2.7.1';
+	const VERSION = '2.7.2';
 
 	const CAMERA_NONE         = 0;
 	const CAMERA_ORTHOGRAPHIC = 1;
@@ -33046,6 +33046,7 @@
 			function animateAzimuthMove () {
 
 				controls.rotateLeft( delta );
+				endCameraPosition.copy( camera.position );
 
 			}
 
@@ -33066,6 +33067,7 @@
 			function animatePolarMove () {
 
 				controls.rotateUp( delta );
+				endCameraPosition.copy( cameraManager.activeCamera.position );
 
 			}
 
