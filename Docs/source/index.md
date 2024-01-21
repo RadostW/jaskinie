@@ -7,14 +7,21 @@
 
 ## Podgląd 3D
 
+| klawisz    | funkcja                         |
+|------------|---------------------------------|
+| ++p++      | widok **P**lanu                 |
+| ++l++      | widok przekroju (e**L**evation) |
+| ++space++  | obracanie                       |
+| ++delete++ | reset widoku                    |
+
 * [Jaskinia Czarna](modele_3d/jaskinia_czarna_3d.md)
 * [Jaskinia Miętusia](modele_3d/jaskinia_mietusia_3d.md)
 
 * [Zestawienie Jaskiń](modele_3d/all_3d.md)
 
-## Contributors
+## Dołożyli cegiełkę
 
-|        name        |         club        |
+|        imie        |         klub        |
 |--------------------|---------------------|
 |    Jan Grzeszek    |Speleoklub Warszawski|
 |   Joanna Jurczyk   |Speleoklub Warszawski|

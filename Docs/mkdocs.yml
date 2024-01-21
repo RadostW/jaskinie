@@ -6,8 +6,8 @@ repo_url: https://radostw.github.io/jaskinie/
 repo_name: Jaskinie Tatr
 
 nav:
-  - index.md 
-  - ... | jaskinie/*     
+  - index.md
+  - ... | jaskinie/*
   - Modele 3D:
     - ... | flat | modele_3d/*.md
   - ...
@@ -18,16 +18,17 @@ theme:
     scheme: slate
   language: pl
 
-markdown_extensions:  
+markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg  
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - attr_list
   - md_in_html
   - admonition
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.mark
+  - pymdownx.keys
 
 plugins:
   - glightbox
