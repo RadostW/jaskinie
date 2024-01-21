@@ -16,9 +16,10 @@ This repository as a colleciton of works is licensed under CC BY SA 4.0 license.
 |--------------------|---------------------|
 |    Jan Grzeszek    |Speleoklub Warszawski|
 |   Joanna Jurczyk   |Speleoklub Warszawski|
-|Stanislaw Mielarczek|Speleoklub Warszawski|
+| Marcin Lewandowski |Speleoklub Warszawski|
+|  Paweł Nowikowski  |Speleoklub Warszawski|
 | Radost Waszkiewicz |Speleoklub Warszawski|
-
+|Stanislaw Mielarczek|Speleoklub Warszawski|
 
 ## Why start over
 
