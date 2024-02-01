@@ -2,7 +2,10 @@
 
 __Opis na podstawie danych Państwowy Instytut Geologiczny - Państwowy Instytut Badawczy__
 
-Drobne zmiany i redakcje (CC BY SA 4.0) wykonał Radost Waszkiewicz - Speleoklub Warszawski
+__Mini plany na podstawie danych Państwowy Instytut Geologiczny - Państwowy Instytut Badawczy__
+__Autorzy: J. Grodzicki, W. Bolek, K. Starnawski, R. Kardaś oraz Zespół Inwentaryzacji Jaskiń Tatrzańskich PTPNoZ__
+
+Drobne zmiany opisu i redakcje (CC BY SA 4.0) wykonał Radost Waszkiewicz - Speleoklub Warszawski
 
 Opis ciągu głownego normalnym tekstem, _boczne partie italiką_, rzadko odwiedzane partie zwinięte w blokach.
 
@@ -13,6 +16,11 @@ Opis ciągu głownego normalnym tekstem, _boczne partie italiką_, rzadko odwied
 Niepozorny otwór jaskini o wymiarach 0,6x0,8 m ukryty jest w zagłębieniu pod skałą. W roku 1976 zainstalowano w nim kratę, która obecnie już nie istnieje. 
 
 ## Rura
+
+<figure class="inline end" markdown>
+  ![mini_plan](./photos/Jaskinia_Mietusia/miniplan_rura.png){width="400", align=left}
+  <figcaption>Mini plan: Partie wejściowe - kratka 100m</figcaption>
+</figure>
 
 Za otworem ciągnie się Ciasny Korytarzyk o długości 118 m, uciążliwy ze względu na ciasnotę (cały czas posuwać się nim można tylko na czworakach), liczne zaciski. Doprowadza on nad 8 m wysoki, pochyły próg, którym schodzimy przy pomocy poręczówki do Komory Matki Boskiej (trudności progu IV-). Stąd w dół i w lewo. 
 
@@ -26,6 +34,11 @@ Od Komory pod Matką Boską i idziemy Głównym Korytarzem w dół. Po kilku met
 _Z tego miejsca w lewo, w górę poprzez 5 m wysoki próg (IV) możemy się wycofać do Górnego Korytarza. Jest on rozwinięty na tych samych szczelinach co dalszy ciąg Głównego Korytarza. Górny Korytarz ładnie myty przez wodę, o skalnym dnie i nielicznych, pięknych naciekach, doprowadza do Pochyłej Komory, bardzo szerokiej (około 6 m), niskiej (około 0,8 m), o dnie zasłanym gruzem, a w górnej części namuliskiem. Pochyła Komora w swej górnej części kończy się dwoma niewielkimi studniami opadającymi do Głównego Korytarza przed jeziorkiem. Nieco wcześniej można wspiąć się lewą orograficznie ścianą Komory do wznoszącego się stromo w górę korytarza prowadzącego do tzw. Partii Nietoperzowych. Zmienia on kilkakrotnie kierunek. Na odcinkach poziomych w dwóch miejscach zbiera się woda (zwykle przejście wymaga jej wyczerpania). Nieco dalej, na zakręcie korytarza trafiamy na głębsze jeziorko, tworzące często syfon. Po częściowym wyczerpaniu wody czołgamy się kilka metrów w błocie niską, ciasną rurką i za zakrętem schodzimy śliską, 7-metrową studzienką (przydatna lina). Z jej dna przez ciasny syfonik można przejść na bezdechu do wąskiej szczeliny, która kontynuuje się około 30 m i jest zakończona zwężeniem. Przed syfonikiem 1-metrowy prożek prowadzi w górę do krótkiego korytarzyka opadającego prożkami do syfonu wysychającego tylko wyjątkowo, w okresach optymalnych warunków wodnych w jaskini. Korytarz za syfonem nie został zbadany._
 
 ## Syfon Zwolińskich
+
+<figure class="inline end" markdown>
+  ![mini_plan](./photos/Jaskinia_Mietusia/miniplan_blotne.png){width="400", align=left}
+  <figcaption>Mini plan: Błotne Zamki - kratka 100m</figcaption>
+</figure>
 
 Od Iglicy Główny Korytarza opada w dół i po dwudziestu metrach skręca w lewo kończąc się Syfonem Zwolińskich. 
 
@@ -127,6 +140,11 @@ _Z Sali Błotnych Lejków w lewo, za kilkumetrowym prożkiem biegnie wysoki, myt
 Południowo-zachodni kraniec Sali Błotnych Lejków zajmuje jeziorko blokujące przez cały rok (z wyjątkiem miesięcy zimowych) przejście do dalszych partii jaskini, zwane Syfonem Marynarki Wojennej (560 m od otworu, –66,4 m). W zależności od stanu wody w syfonie jeziorko zajmuje prawie całe dno Sali Błotnych Lejków (przy wysokim stanie) lub cofa się w głąb Sali, pod jej SW ścianę. Przy niskim stanie prześwit w syfonie wynosi około 25 cm i można z trudem przepłynąć na małym pontonie lotniczym. Przy wyższych stanach wody przejście jest możliwe tylko wpław (w skafandrach nurkowych, lub w piankach do windsurfingu).
 
 ## Syfon Marynarki Wojennej
+
+<figure class="inline end" markdown>
+  ![mini_plan](./photos/Jaskinia_Mietusia/miniplan_marwoj.png){width="400", align=left}
+  <figcaption>Mini plan: MarWoj - kratka 100m</figcaption>
+</figure>
 
 Syfon Marynarki Wojennej jest dwuczęściowy. Pierwszy odcinek długości około 1 m wyprowadza do niewielkiej salki wypełnionej jeziorkiem o głębokości do 1,6 m. W jej południowym krańcu znajduje się wejście do wąskiego, rurowatego korytarzyka, stanowiącego drugi odcinek syfonu. Korytarzyk po około 2,5 m wyprowadza do sporej, zawaliskowej salki. W połowie salki zawalisko bloków spiętrza się w około 2 m wysoki próg. Za zakrętem w prawo zaczyna się wysoki, myty korytarz o gotyckim przekroju, szeroki na 2–3 m, o dnie pokrytym suchym, gliniastym namuliskiem. Nazwany został Trasą W–Z. Po kilkunastu metrach w prawo odchodzi ciasny korytarzyk z małymi jeziorkami. Tu zaczynają się partie zwane _Jubileuszowymi Ciągami_, w których wyeksplorowano dotychczas 515 m korytarzy, na ogół ciasnych i błotnistych.
 
