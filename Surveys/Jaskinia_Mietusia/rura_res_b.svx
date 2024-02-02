@@ -9,17 +9,19 @@
 ;    Author            Stanislaw Mielarczek - Speleoklub Warszawski
 ;    Licence           CC BY SA 4.0
 ;    Survey_device     DistoX
+;    Note              Marked as resurvey
 
 ; 2023.12.30 created by TopoDroid v 6.2.11
 ; jj001_mietusia_w_dół - disto M Gala
 ; Instrument: Pixel 6a
 
-*begin 20221023_mietusia_rura_a 
+*begin rura_res_b 
   *date 2022.10.23 
   *team "jj jg pn ml sm" 
   *units tape meters
   *units compass degrees
   *units clino degrees
+  *flags duplicate
   *flags not splay
   *data normal from to tape compass clino
     0 1   2.68 241.6 -13.7
@@ -113,4 +115,4 @@
 37  0.00 0.00 0.00 0.00
 38  0.00 0.00 0.00 0.00
 
-*end 20221023_mietusia_rura_a
+*end rura_res_b

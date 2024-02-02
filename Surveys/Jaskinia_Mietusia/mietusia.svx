@@ -31,24 +31,25 @@
     *equate do_buta.c225        do_kamiennych_schodkow.c17
     
     ; new surveys
-    *include 20221021_mietusia_rura_a
-    *include 20221022_mietusia_rura
-    *include 20221023_mietusia_rura_a
-    *include 20221023_mietusia_rura_b
-    ;*include 20221021_mietusia_rura_b ; very big outlier
+    *include rura
+
+    *include rura_res_a
+    *include rura_res_b
+    *include rura_res_c
     
-    *equate 20221021_mietusia_rura.0 do_marwoju.c1
-    *equate 20221022_mietusia_rura.0 do_marwoju.c1
-    *equate 20221023_mietusia_rura_a.0 do_marwoju.c1
-    *equate 20221023_mietusia_rura_b.0 do_marwoju.c1
-    ;*equate 20221021_mietusia_rura_b.0 do_marwoju.c1
     
-    *equate 20221022_mietusia_rura.10  20221021_mietusia_rura.11
-    *equate 20221023_mietusia_rura_a.9 20221021_mietusia_rura.11
-    *equate 20221023_mietusia_rura_b.9 20221021_mietusia_rura.11        
-    *equate 20221023_mietusia_rura_a.38 20221021_mietusia_rura.40
-    *equate 20221023_mietusia_rura_b.38 20221021_mietusia_rura.40
+    *equate rura.0 do_marwoju.c1
+    *equate rura_res_a.0 do_marwoju.c1
+    *equate rura_res_b.0 do_marwoju.c1
+    *equate rura_res_c.0 do_marwoju.c1
     
-    ;*equate do_marwoju.c27 20221021_mietusia_rura.40 ; guess
+    
+    *equate rura_res_a.10  rura.11
+    *equate rura_res_b.9 rura.11
+    *equate rura_res_c.9 rura.11        
+    *equate rura_res_b.38 rura.40
+    *equate rura_res_c.38 rura.40
+    
+    ;*equate do_marwoju.c27 rura.40 ; guess
     
 *end mietusia

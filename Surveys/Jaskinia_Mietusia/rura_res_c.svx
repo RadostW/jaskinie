@@ -14,13 +14,14 @@
 ; sm0001 - pomiar wsteczny 2885
 ; Instrument: Pixel 6a
 
-*begin 20221023_mietusia_rura_b 
+*begin rura_res_c 
   *date 2022.10.23 
   *team "sm pn jj ml" 
   *units tape meters
   *units compass degrees
   *units clino degrees
   *flags not splay
+  *flags duplicate
   *data normal from to tape compass clino
     0 1   2.69 241.6 -13.8
     1 2   3.59 232.5 -28.5
@@ -73,4 +74,4 @@
     0 101   2.37 262.9 -62.8  ; otwor do gory
     101 102   15.65 177.9 19.9  ; GPS navigation klodzie
   *flags not splay
-*end 20221023_mietusia_rura_b
+*end rura_res_c
