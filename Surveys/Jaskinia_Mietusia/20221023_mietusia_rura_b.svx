@@ -14,8 +14,6 @@
 ; sm0001 - pomiar wsteczny 2885
 ; Instrument: Pixel 6a
 
-; MISSING AUTHOR APPROVAL - ml - Marcin Lewandowski
-
 *begin 20221023_mietusia_rura_b 
   *date 2022.10.23 
   *team "sm pn jj ml" 
