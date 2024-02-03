@@ -1,3 +1,6 @@
+#Therion scrap back images
+Drawings/**/*.png
+
 #Walls
 *.nta
 *.ntn
