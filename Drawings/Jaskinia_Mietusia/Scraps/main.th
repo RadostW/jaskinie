@@ -1,0 +1,4 @@
+input rura_top.th2
+input rura_bottom.th2
+
+join ruratop rurabottom

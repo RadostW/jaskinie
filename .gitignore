@@ -1,6 +1,9 @@
 #Therion scrap back images
 Drawings/**/*.png
 
+#Final images from therion
+Drawings/Jaskinia_Mietusia/Build/*
+
 #Walls
 *.nta
 *.ntn
