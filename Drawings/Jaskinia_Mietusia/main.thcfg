@@ -1,0 +1,9 @@
+encoding  utf-8
+
+source ./Scraps/rura.th2
+
+input ./Styles/styles.layout
+
+export map -o ./Build/mietusia.pdf -layout clean -layout-scale 1 300
+export map -o ./Build/mietusia_debug.pdf -layout debug -layout-scale 1 300
+
