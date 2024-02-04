@@ -1,4 +1,6 @@
+import ../Centreline/mietusia.3d -surveys ignore -filter mietusia.
+
 input rura_top.th2
 input rura_bottom.th2
-
 join ruratop rurabottom
+

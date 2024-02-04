@@ -3,11 +3,6 @@ encoding  utf-8
 ##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 {}} rura_top_plan.png 0 {}
 
-import ../Centreline/mietusia.3d -surveys ignore -filter mietusia.
-
-
-
-
 scrap ruratop -projection plan -scale [-128 -3430 2679 -3430 0.0 0.0 71.2978 0.0 m]
 
 point 1427.5 -989.0 station -name rura.19

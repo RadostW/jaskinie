@@ -1,12 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128 -2022 3741 128
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {-28.5 1 1.0} {89.25 {}} rura_bottom_plan.png 0 {}
-
-import ../Centreline/mietusia.3d -surveys ignore -filter mietusia.
-
-
-
 
 scrap rurabottom -scale [-128 -2022 3741 -2022 0.0 0.0 98.2726 0.0 m]
 
@@ -53,6 +48,8 @@ point 1350.75 -649.25 station -name rura.20
 point 1430.0 -650.0 station -name rura.19
 
 point 1468.5 -587.5 station -name rura.18
+
+point 46.75 -1456.25 altitude -align t
 
 line wall
   1430.75 -622.5

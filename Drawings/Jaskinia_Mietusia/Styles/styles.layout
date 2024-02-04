@@ -54,15 +54,34 @@ layout clean
 
   code tex-map
     %%% 
-    % Bad fix missing ogonek command
-    %%%       
-    \newdimen\ogonekxoffset
-    \newdimen\ogonekyoffset
-    \ogonekxoffset=0.15em
-    \ogonekyoffset=0.1em
-    \def\ogonek{\raise \ogonekyoffset \hbox{\accent24{}}}
-    \def\k#1{\hskip\ogonekxoffset\ogonek\hskip -0.48 em\hskip-\ogonekxoffset #1}
+    % Fix missing ogonek command
+    %%%
+    \dimendef\platleft=0 \dimendef\platdown=1 
+    \dimendef\platright=2 \dimendef\plattemp=3
 
+    \def\sob#1#2#3#4#5{%
+        \setbox0\hbox{#1}\setbox1\hbox{\accent24{}}\setbox2\hbox{p}%
+        \platright=#2\wd0 \advance\platright by-#3\wd1
+        \platdown=#5\ht1 \advance\platdown by-#4\ht0
+        \platleft=\platright \advance\platleft by\wd1
+        \plattemp=-\platdown \advance\plattemp by\dp2 \dp1=\plattemp
+        \leavevmode\kern\platright\lower\platdown\box1\kern-\platleft #1}
+    
+    \def\aob{\sob a{.50}{.20}{0.07}{.90}}    
+    \def\Aob{\sob A{.80}{.50}{0.07}{.90}}
+    \def\eob{\sob e{.50}{.35}{0.07}{.93}}
+    \def\Eob{\sob E{.60}{.35}{0.07}{.90}}
+    
+    \def\k#1{%
+        \ifx#1a\aob%
+        \else\ifx#1A\Aob%
+        \else\ifx#1e\eob%
+        \else\ifx#1E\Eob%
+        \fi\fi\fi\fi}
+    %%%    
+    % End missing ogonek command
+    %%%
+    
     \newtoks\license
 
     %%%
