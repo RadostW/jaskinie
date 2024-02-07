@@ -11,7 +11,8 @@
   *units compass degrees
   *units clino degrees
   
-  *sd easting  1 metres ; very large - prefer new data whenever possible
+  ; very large - prefer new data whenever possible
+  *sd easting  1 metres 
   *sd northing 1 meters
   *sd altitude 1 meters
   

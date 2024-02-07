@@ -1,0 +1,30 @@
+;  OBLIGATORY FIELDS
+;    Cave_name         Jaskinia Mietusia
+;    Section_name      Marszalkowska
+;    Entry_last_update 2024-02-07
+;    Author            Radost Waszkiewicz - Speleoklub Warszawski
+;    Licence           CC BY SA 4.0
+;    Survey_device     Digitized from plan
+
+    *begin marszalkowska
+    *units tape meters
+    *units compass degrees
+    *units clino degrees
+    
+    *sd easting  10 metres 
+    *sd northing 10 meters
+    *sd altitude 10 meters
+    
+    *data cartesian from to easting northing altitude
+    c0  c1  -1.55  -4.43  0.43
+    c1  c2  -1.84  -4.72  0.43
+    c2  c3  -1.98  -3.86  0.43
+    c3  c4   0.14  -5.01  0.43
+    c4  c5   0.00  -4.86  0.43
+    c5  c6   1.70  -4.01  0.43
+    c6  c7  -1.70  -3.58  0.43
+    c7  c8  -0.71  -3.86  0.43
+    c8  c9   3.25  -3.58  0.43
+    c9  c10   4.52  -1.00  0.43
+    c10  c11   1.84  -3.29  0.43
+    *end marszalkowska

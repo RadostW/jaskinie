@@ -23,12 +23,21 @@
     *include ./Digitized/do_avenu.svx
     *include ./Digitized/do_krakowskiego.svx
     *include ./Digitized/do_kamiennych_schodkow.svx
+    *include ./Digitized/pletwonurek.svx
+    *include ./Digitized/stumetrowy.svx
+    *include ./Digitized/marszalkowska.svx
+    *include ./Digitized/mkominek.svx
     
     *equate do_marwoju.c109     do_buta.c201
     *equate do_buta.c274        do_wulkanow.c301 
     *equate do_wulkanow.c387    do_avenu.c401
     *equate do_krakowskiego.c0  do_marwoju.c40
     *equate do_buta.c225        do_kamiennych_schodkow.c17
+    *equate do_buta.c244        pletwonurek.c3
+    *equate do_buta.c263        pletwonurek.c18
+    *equate do_buta.c235        stumetrowy.c0
+    *equate do_buta.c220        marszalkowska.c0
+    *equate do_buta.c219        mkominek.c0
     
     ; new surveys
     *include rura

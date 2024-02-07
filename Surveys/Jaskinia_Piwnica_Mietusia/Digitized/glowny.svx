@@ -1,0 +1,25 @@
+ 
+;  OBLIGATORY FIELDS
+;    Cave_name         Jaskinia Piwnica Mietusia
+;    Section_name      Ciag glowny
+;    Entry_last_update 2024-02-07
+;    Author            Radost Waszkiewicz - Speleoklub Warszawski
+;    Licence           CC BY SA 4.0
+;    Survey_device     Digitized from plan
+
+    *begin glowny
+    *units tape meters
+    *units compass degrees
+    *units clino degrees
+    *data cartesian from to easting northing altitude        
+    c1	c2	-3.01	-3.96	0.00
+    *entrance c1
+    c2	c3	-3.86	-4.92	0.00
+    c3	c4	-2.25	-3.65	0.00
+    c4	c5	-6.01	-0.85	0.00
+    c5	c6	-5.49	-0.52	0.00
+    c6	c7	-5.21	-0.93	0.00
+    c7	c8	-3.86	-1.06	0.00
+    c8	c9	-3.42	-0.26	0.00
+    c9	c10	-2.72	-0.10	0.00
+    *end glowny    

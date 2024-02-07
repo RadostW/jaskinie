@@ -1,0 +1,37 @@
+;  OBLIGATORY FIELDS
+;    Cave_name         Jaskinia Mietusia
+;    Section_name      Korytarz Pletwonurka
+;    Entry_last_update 2024-02-07
+;    Author            Radost Waszkiewicz - Speleoklub Warszawski
+;    Licence           CC BY SA 4.0
+;    Survey_device     Digitized from plan and elevation
+
+    *begin pletwonurek
+    *units tape meters
+    *units compass degrees
+    *units clino degrees
+    
+    *sd easting  10 metres 
+    *sd northing 10 meters
+    *sd altitude 10 meters
+    
+    *data cartesian from to easting northing altitude
+    ;c0  c1  -2.05   7.65   2.36
+    ;c1  c2  -0.51   8.03  -2.81
+    ;c2  c3  -1.54   6.87  -2.81
+    c3  c4  -6.27  -5.31  -1.91
+    c4  c5  -3.97  -5.70  -1.46
+    c5  c6  -7.43  -4.28   2.02
+    c6  c7  -5.89  -4.28  -0.00
+    c7  c8  -5.25  -4.28   2.47
+    c8  c9  -2.82  -3.24   1.01
+    c9  c10  -3.33  -3.50  -0.11
+    c10  c11  -6.27   3.50  -0.00
+    c11  c12  -4.61   4.92  -1.46
+    c12  c13  -5.12  -2.33  -3.03
+    c13  c14  -2.43  -2.46  -1.91
+    c14  c15  -6.79   3.50  -2.69
+    c15  c16   1.66   5.70  -1.57
+    c16  c17  -1.02   3.89  -2.36
+    c17  c18   3.46   4.92   1.35
+    *end pletwonurek

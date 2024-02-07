@@ -22,3 +22,4 @@
 
 *fix otwor_mietusia               19.898743 49.246411 1273
 *fix otwor_mietusia_wyznia        19.894899 49.245461 1393
+*fix otwor_piwnica_mietusia       19.897227 49.244691 1392
