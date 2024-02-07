@@ -6,9 +6,10 @@
 ;    Licence           CC BY SA 4.0
 ;    Survey_device     None
 
-*include ./../Surveys/Jaskinia_Czarna/czarna.svx
+;*include ./../Surveys/Jaskinia_Czarna/czarna.svx
 *include ./../Surveys/Jaskinia_Mietusia/mietusia.svx
 *include ./../Surveys/Jaskinia_Mietusia_Wyznia/mietusia_wyznia.svx
+*include ./../Surveys/Jaskinia_Piwnica_Mietusia/piwnica_mietusia.svx
 
 *include ./../GPS/gps.svx
 
