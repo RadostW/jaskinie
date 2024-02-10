@@ -71,7 +71,7 @@
     36 37   3.90 228.0 -26.2
     37 38   2.76 272.1 -20.6
   *flags surface    
-    0 101   2.37 262.9 -62.8  ; otwor do gory
-    101 102   15.65 177.9 19.9  ; GPS navigation klodzie
+    101 0     2.37 262.9 -62.8  ; otwor do gory
+    102 101   15.65 177.9 19.9  ; GPS navigation klodzie
   *flags not splay
 *end rura_res_c

@@ -6,7 +6,8 @@
 ;    Licence           CC BY SA 4.0
 ;    Survey_device     None
 
-*equate otwor_mietusia mietusia.do_marwoju.c1
+;*equate otwor_mietusia mietusia.rura.0
+*equate gps_mietusia_2024 mietusia.powierzchnia.3
 
 *begin mietusia
 
@@ -15,7 +16,33 @@
     *calibrate declination -6.1
 
     *title "Jaskinia Mietusia"
+        
+    ; post 2020 surveys
+    *include rura
+    *include matka_boska
+    *include powierzchnia
+
+    ; duplicate surveys
+    *include rura_res_a
+    *include rura_res_b
+    *include rura_res_c
+            
+    *equate rura_res_a.0 rura.0
+    *equate rura_res_b.0 rura.0
+    *equate rura_res_c.0 rura.0
+        
+    *equate rura_res_a.10  rura.11
+    *equate rura_res_b.9 rura.11
+    *equate rura_res_c.9 rura.11        
+    *equate rura_res_b.38 rura.40
+    *equate rura_res_c.38 rura.40
+
+    *equate matka_boska.0 rura.40
     
+    *equate powierzchnia.0 rura.0
+    *equate powierzchnia.6 rura.0
+        
+
     ; digitized old plans
     *include ./Digitized/do_marwoju.svx
     *include ./Digitized/do_buta.svx
@@ -27,6 +54,8 @@
     *include ./Digitized/stumetrowy.svx
     *include ./Digitized/marszalkowska.svx
     *include ./Digitized/mkominek.svx
+
+    *equate rura.0 do_marwoju.c1
     
     *equate do_marwoju.c109     do_buta.c201
     *equate do_buta.c274        do_wulkanow.c301 
@@ -38,27 +67,5 @@
     *equate do_buta.c235        stumetrowy.c0
     *equate do_buta.c220        marszalkowska.c0
     *equate do_buta.c219        mkominek.c0
-    
-    ; new surveys
-    *include rura
-
-    *include rura_res_a
-    *include rura_res_b
-    *include rura_res_c
-    
-    
-    *equate rura.0 do_marwoju.c1
-    *equate rura_res_a.0 do_marwoju.c1
-    *equate rura_res_b.0 do_marwoju.c1
-    *equate rura_res_c.0 do_marwoju.c1
-    
-    
-    *equate rura_res_a.10  rura.11
-    *equate rura_res_b.9 rura.11
-    *equate rura_res_c.9 rura.11        
-    *equate rura_res_b.38 rura.40
-    *equate rura_res_c.38 rura.40
-    
-    ;*equate do_marwoju.c27 rura.40 ; guess
     
 *end mietusia
