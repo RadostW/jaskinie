@@ -1,7 +1,5 @@
 encoding  utf-8
 
-#source ./Scraps/rura_top.th2
-#source ./Scraps/rura_bottom.th2
 source ./Scraps/main.th
 
 input ./Styles/styles.layout
