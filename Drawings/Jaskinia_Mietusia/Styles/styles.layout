@@ -67,10 +67,12 @@ layout clean
     \def\authorslist{\par
     {\bf Speleoklub Warszawski:}
     {Jan Grzeszek},
-    {Joanna Jurczyk},\par
+    {Weronika Gutfeter},
+    {Paweł Jarosz},\par
+    {Joanna Jurczyk},
     {Marcin Lewandowski},
-    {Stanisław Mielarczek},
-    {Paweł Nowikowski},\par
+    {Stanisław Mielarczek},\par
+    {Paweł Nowikowski},
     {Radost Waszkiewicz}}
 
     \license={CC BY-SA 4.0}
