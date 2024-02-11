@@ -1,0 +1,43 @@
+;  OBLIGATORY FIELDS
+;    Cave_name         Jaskinia Mietusia
+;    Section_name      Nietoperzowe
+;    Entry_last_update 2024-02-11
+;    Author            Radost Waszkiewicz - Speleoklub Warszawski
+;    Licence           CC BY SA 4.0
+;    Survey_device     Digitized from plan and elevation
+
+    *begin nietoperzowe
+    *units tape meters
+    *units compass degrees
+    *units clino degrees
+    *data cartesian from to easting northing altitude
+    *flags duplicate
+    c0  c1   1.09  -2.65   6.95
+    *flags not duplicate
+    c1  c2   4.73  -0.00   3.62
+    c2  c3   6.31   0.84   3.18
+    c3  c4   4.61   0.97   3.62
+    c4  c5   4.24   0.48   3.91
+    c5  c6   2.79  -2.29   2.32
+    c6  c7   4.00  -0.97   2.46
+    c7  c8   7.40   2.05   2.32
+    c8  c9   4.85   2.17   2.46
+    c9  c10   4.97   1.45   1.45
+    c10  c11   5.94   2.41   3.04
+    c11  c12   6.18   1.09   2.17
+    c12  c13   4.00  -0.48   1.88
+    c13  c14   5.21   1.69   2.32
+    c14  c15   2.18  -0.12   1.88
+    c15  c16  -1.82  -2.77  -0.01
+    c16  c17   2.67  -2.90  -0.10
+    c17  c18   2.43  -3.50   0.99
+    c18  c19   0.73  -4.58   1.38
+    c19  c20   0.00  -3.50   1.66
+    c20  c21   0.24  -2.90   2.24
+    c21  c22   4.49  -1.09   1.54
+    c22  c23   3.27  -0.48   0.03
+    c23  c24  -1.46  -2.29  -5.97
+    c24  c25   4.12  -0.00  -0.49
+    c25  c26   4.24   0.36   0.04
+
+    *end nietoperzowe

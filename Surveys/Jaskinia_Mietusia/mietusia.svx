@@ -17,7 +17,9 @@
 
     *title "Jaskinia Mietusia"
         
+    ; =============================================================        
     ; post 2020 surveys
+    ; =============================================================
     *include rura
     *include matka_boska
     *include powierzchnia
@@ -42,8 +44,10 @@
     *equate powierzchnia.0 rura.0
     *equate powierzchnia.6 rura.0
         
-
+    ; =============================================================
     ; digitized old plans
+    ; =============================================================
+
     *include ./Digitized/do_marwoju.svx
     *include ./Digitized/do_buta.svx
     *include ./Digitized/do_wulkanow.svx
@@ -54,6 +58,8 @@
     *include ./Digitized/stumetrowy.svx
     *include ./Digitized/marszalkowska.svx
     *include ./Digitized/mkominek.svx
+    *include ./Digitized/glowny_korytarz.svx
+    *include ./Digitized/nietoperzowe.svx
 
     *equate rura.0 do_marwoju.c1
     
@@ -67,5 +73,7 @@
     *equate do_buta.c235        stumetrowy.c0
     *equate do_buta.c220        marszalkowska.c0
     *equate do_buta.c219        mkominek.c0
+    *equate glowny_korytarz.c0 do_marwoju.c29
+    *equate nietoperzowe.c1 do_marwoju.c33
     
 *end mietusia
