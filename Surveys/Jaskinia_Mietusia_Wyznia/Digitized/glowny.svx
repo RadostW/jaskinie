@@ -12,13 +12,14 @@
     *units compass degrees
     *units clino degrees
     *data cartesian from to easting northing altitude
+    *flags duplicate
     c0  c1  -7.12   3.69  -4.03
     *entrance c0
     c1  c2   0.22   6.92  -0.58
     c2  c3  -7.02   1.24  -1.82
     c3  c4  -1.05   5.90  -0.65
     c4  c5  -3.27   0.95   1.09
-    c5  c6  -0.32  19.19   0.15
+    c5  c6  -0.32  19.19   0.15    
     c6  c7  -5.27   0.95  -0.11
     c7  c8  -6.22   1.58   0.64
     c8  c9  -4.64   2.00  -4.03
@@ -57,6 +58,7 @@
     c41  c42  -1.18  -2.02  -0.34
     c42  c43  -2.86  -1.74  -1.43
     c43  c44   1.18   4.77  -2.58
+    *flags not duplicate
     c44  c45   5.16   1.79  -1.69
     c45  c46   2.24   1.07  -3.02
     c46  c47   2.44   2.41  -2.36

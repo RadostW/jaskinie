@@ -6,7 +6,6 @@
 ;    Licence           CC BY SA 4.0
 ;    Survey_device     None
 
-;*equate otwor_mietusia mietusia.rura.0
 *equate gps_mietusia_2024 mietusia.powierzchnia.3
 
 *begin mietusia

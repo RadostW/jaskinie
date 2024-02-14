@@ -6,11 +6,46 @@
 ;    Licence           CC BY SA 4.0
 ;    Survey_device     None
 
-*equate otwor_mietusia_wyznia mietusia_wyznia.glowny.c0
+*equate gps_mietusia_wyznia mietusia_wyznia.otwor.gps
 
 *begin mietusia_wyznia
 
-    *title "Jaskinia Mietusia"
-    *include ./Digitized/glowny.svx
+    ; manual setting, 
+    ; auto avaliable with GPS data only
+    *calibrate declination -6.1
+
+    *title "Jaskinia Mietusia Wyznia"
+
+    ; ===================
+    ; 2024 measurements
+    ; ===================
+    *include otwor
+    *include suche_dno
+    *include mylna_rura
+    *include wyznia_matka
+    *include problem_speleoklubu
+    *include traba
+
+    *equate mylna_rura.19 otwor.19
+    *equate mylna_rura.20 otwor.20
+    *equate mylna_rura.21 otwor.21
+    *equate mylna_rura.22 otwor.22
+    *equate mylna_rura.a otwor.a
+
+    *equate wyznia_matka.19 mylna_rura.28
+
+    *equate suche_dno.12 wyznia_matka.1
+
+    *equate problem_speleoklubu.0 suche_dno.29
+    *equate problem_speleoklubu.1 suche_dno.30
+
+    *equate traba.0 suche_dno.12
+    *equate traba.2 suche_dno.14
+       
+    ; ===================
+    ; Digitized from plan and elevation
+    ; ===================
+    *include ./Digitized/glowny.svx    
+    *equate problem_speleoklubu.0 glowny.c44
     
 *end mietusia_wyznia

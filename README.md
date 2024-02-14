@@ -17,10 +17,11 @@ This repository as a colleciton of works is licensed under CC BY SA 4.0 license.
 |    Jan Grzeszek    |Speleoklub Warszawski|
 |   Joanna Jurczyk   |Speleoklub Warszawski|
 | Marcin Lewandowski |Speleoklub Warszawski|
-|    Paweł Jarosz    |Speleoklub Warszawski|
-|  Paweł Nowikowski  |Speleoklub Warszawski|
+|    Michal Smaga    |Speleoklub Warszawski|
+|    Pawel Jarosz    |Speleoklub Warszawski|
+|  Pawel Nowikowski  |Speleoklub Warszawski|
 | Radost Waszkiewicz |Speleoklub Warszawski|
-|Stanislaw Mielarczek|Speleoklub Warszawski|
+|Stanislaw Mielczarek|Speleoklub Warszawski|
 |  Weronika Gutfeter |Speleoklub Warszawski|
 
 

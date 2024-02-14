@@ -6,7 +6,7 @@
 ;    Author            Jan Grzeszek - Speleoklub Warszawski
 ;    Author            Paweł Nowikowski - Speleoklub Warszawski
 ;    Author            Marcin Lewandowski - Speleoklub Warszawski
-;    Author            Stanislaw Mielarczek - Speleoklub Warszawski
+;    Author            Stanislaw Mielczarek - Speleoklub Warszawski
 ;    Licence           CC BY SA 4.0
 ;    Survey_device     DistoX
 ;    Note              Marked as resurvey

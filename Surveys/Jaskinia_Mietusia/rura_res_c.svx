@@ -2,7 +2,7 @@
 ;    Cave_name         Jaskinia Mietusia
 ;    Section_name      Rura
 ;    Entry_last_update 2022-10-21
-;    Author            Stanislaw Mielarczek - Speleoklub Warszawski
+;    Author            Stanislaw Mielczarek - Speleoklub Warszawski
 ;    Author            Paweł Nowikowski - Speleoklub Warszawski
 ;    Author            Joanna Jurczyk - Speleoklub Warszawski
 ;    Author            Marcin Lewandowski - Speleoklub Warszawski
