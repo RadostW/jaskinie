@@ -3,7 +3,7 @@
 ;    Section_name      Rura
 ;    Entry_last_update 2022-10-21
 ;    Author            Stanislaw Mielczarek - Speleoklub Warszawski
-;    Author            Paweł Nowikowski - Speleoklub Warszawski
+;    Author            Pawel Nowikowski - Speleoklub Warszawski
 ;    Author            Joanna Jurczyk - Speleoklub Warszawski
 ;    Author            Marcin Lewandowski - Speleoklub Warszawski
 ;    Licence           CC BY SA 4.0

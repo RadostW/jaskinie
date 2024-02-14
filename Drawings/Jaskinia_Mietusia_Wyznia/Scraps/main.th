@@ -1,0 +1,21 @@
+import ../Centreline/mietusia_wyznia.3d -surveys ignore -filter mietusia_wyznia.
+
+input otwor.th2
+input mylna_rura.th2
+input gorne_obejscie.th2
+input suche_dno_dol.th2
+input suche_dno_gora.th2
+input wyznia_matka.th2
+input slizgawka.th2
+input traba.th2
+input problem_speleoklubu.th2
+
+join otwor mylna_rura
+join mylna_rura gorne_obejscie
+join ot1 go1
+join ot2 go2
+join wyznia_matka suche_dno_gora
+join wyznia_matka gorne_obejscie
+join slizgawka wyznia_matka
+join traba slizgawka
+join problem_speleoklubu slizgawka

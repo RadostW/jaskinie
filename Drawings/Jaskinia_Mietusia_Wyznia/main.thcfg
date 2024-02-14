@@ -1,0 +1,9 @@
+encoding  utf-8
+
+source ./Scraps/main.th
+
+input ./Styles/styles.layout
+
+export map -o ./Build/mietusia_wyznia.pdf -layout clean -layout-scale 1 300
+export map -o ./Build/mietusia_wyznia_debug.pdf -layout debug -layout-scale 1 300
+

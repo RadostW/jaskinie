@@ -3,7 +3,7 @@
 ;    Section_name      Otwor
 ;    Entry_last_update 2024-02-12
 ;    Author            Weronika Gutfeter - Speleoklub Warszawski
-;    Author            Michał Smaga - Speleoklub Warszawski
+;    Author            Michal Smaga - Speleoklub Warszawski
 ;    Author            Jan Grzeszek - Speleoklub Warszawski
 ;    Author            Stanislaw Mielczarek - Speleoklub Warszawski
 ;    Licence           CC BY SA 4.0

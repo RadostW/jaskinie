@@ -51,6 +51,8 @@ layout clean
   statistics explo-length off
 
   symbol-set BCRA
+  # symbol-set SKBB
+  # symbol-assign point gradient BCRA
 
   code tex-map
     
@@ -59,7 +61,7 @@ layout clean
     %%%
     % Cave and survey information block
     %%%
-    \cavename={Jaskinia Miętusia}
+    \cavename={Jaskinia Miętusia Wyżnia}
     \cavelengthtitle={długość}
     \cavedepthtitle={głębokość}
     \topotitle={autorzy}
@@ -69,10 +71,8 @@ layout clean
     {Jan Grzeszek},
     {Weronika Gutfeter},
     {Paweł Jarosz},\par
-    {Joanna Jurczyk},
-    {Marcin Lewandowski},
-    {Stanisław Mielczarek},\par
-    {Paweł Nowikowski},
+    {Stanisław Mielczarek},
+    {Michał Smaga},
     {Radost Waszkiewicz}}
 
     \license={CC BY-SA 4.0}
@@ -81,8 +81,8 @@ layout clean
     % Map layout section
     %%%    
     \def\maplayout{
-      \legendbox{65}{-10}{SW}{\the\legendcontent}
-      \legendbox{20}{80}{center}{\northarrow}
+      \legendbox{0}{100}{NW}{\the\legendcontent}
+      \legendbox{80}{80}{center}{\northarrow}
     }
     
     %%%

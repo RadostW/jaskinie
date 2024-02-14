@@ -28,5 +28,5 @@
 | Marcin Lewandowski |Speleoklub Warszawski|
 |  Paweł Nowikowski  |Speleoklub Warszawski|
 | Radost Waszkiewicz |Speleoklub Warszawski|
-|Stanislaw Mielarczek|Speleoklub Warszawski|
+|Stanislaw Mielczarek|Speleoklub Warszawski|
 
