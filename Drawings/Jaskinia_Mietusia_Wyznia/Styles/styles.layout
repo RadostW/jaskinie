@@ -6,37 +6,32 @@ text pl "point station:temporary" "punkt pomiarowy"
 text pl "area water" "woda"
 text pl "area sump" "syfon"
 
-layout water-blue  # Make water look blue
-  code metapost
-    def a_water (expr p) =
-      T:=identity;
-      thfill p withcolor (0.62, 0.79, 0.90);  
-    enddef;
-  endcode
-endlayout water-blue
-
-layout sump-blue  # Make sump look blue
-  code metapost
-    def a_sump (expr p) =
-      T:=identity;
-      thfill p withcolor (0.30, 0.47, 0.65);
-    enddef;
-  endcode  
-endlayout sump-blue
-
 layout passage-yellow
   # Colour of the passage
   colour map-fg [100 99 81]
-
-  # Color of map background
-  # colour map-bg [70 90 70]  
 endlayout passage-yellow
 
-layout clean
+layout passage-white
+  # Colour of the passage
+  colour map-fg [100 100 100]
+endlayout passage-white
 
-  copy water-blue
-  copy sump-blue
-  copy passage-yellow
+lookup altitude:uniform
+20  [99	19	0]
+0  [100	57	8]
+-20  [92	80	17]
+-40  [47	70	8]
+-60  [21	53	44]
+-80  [0	20	96]
+endlookup
+
+layout color-by-depth    
+  colour map-fg altitude:uniform
+endlayout color-by-depth  
+
+input custom_water.layout
+
+layout main
   
   language pl  
 
@@ -47,6 +42,7 @@ layout clean
   # legend on
   map-header 0 80 w
   map-header-bg on
+  
   statistics topo-length off
   statistics explo-length off
 
@@ -55,7 +51,7 @@ layout clean
   # symbol-assign point gradient BCRA
 
   code tex-map
-    
+        
     \newtoks\license
 
     %%%
@@ -83,6 +79,7 @@ layout clean
     \def\maplayout{
       \legendbox{0}{100}{NW}{\the\legendcontent}
       \legendbox{80}{80}{center}{\northarrow}
+      \ifaltitudebar\legendbox{25}{100}{NW}{\altitudebar}\fi
     }
     
     %%%
@@ -123,11 +120,36 @@ layout clean
         {\vskip 1 em\the\legendtextsize\ss\the\license\par}
         \fi
       }
-      \formattedlegend
+      
+      %\formattedlegend
+      
       \black
     }
   endcode
   
+endlayout
+
+layout print
+  copy main
+    
+  copy custom_water  
+  copy passage-white 
+endlayout
+
+layout online
+  copy main
+  
+  code metapost  
+  	  %these colours affect fills, not the linework
+  		!color colour_water_bg;
+  		colour_water_bg := (0.62, 0.79, 0.90);
+  		!color colour_sump_bg;
+  		colour_sump_bg := (0.30, 0.47, 0.65);  	  		
+  endcode
+
+  copy custom_water
+  copy color-by-depth
+    
 endlayout
 
 layout debug
@@ -141,3 +163,4 @@ layout debug
   debug all
 
 endlayout
+
