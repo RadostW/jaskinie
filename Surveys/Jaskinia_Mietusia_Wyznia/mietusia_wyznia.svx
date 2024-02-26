@@ -25,6 +25,7 @@
     *include wyznia_matka
     *include problem_speleoklubu
     *include traba
+    *include trzy_syfony
 
     *equate mylna_rura.19 otwor.19
     *equate mylna_rura.20 otwor.20
@@ -41,11 +42,14 @@
 
     *equate traba.0 suche_dno.12
     *equate traba.2 suche_dno.14
+    
+    *equate trzy_syfony.0 suche_dno.30
+    *equate trzy_syfony.1 suche_dno.29
        
     ; ===================
     ; Digitized from plan and elevation
     ; ===================
-    *include ./Digitized/glowny.svx    
-    *equate problem_speleoklubu.0 glowny.c44
+    ;*include ./Digitized/glowny.svx    
+    ;*equate problem_speleoklubu.0 glowny.c44
     
 *end mietusia_wyznia
