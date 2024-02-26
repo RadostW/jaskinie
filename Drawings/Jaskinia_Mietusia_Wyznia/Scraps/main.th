@@ -9,6 +9,12 @@ input wyznia_matka.th2
 input slizgawka.th2
 input traba.th2
 input problem_speleoklubu.th2
+input trzy_syfony_a.th2
+input trzy_syfony_b.th2
+input trzy_syfony_c.th2
+input trzy_syfony_d.th2
+input trzy_syfony_e.th2
+input trzy_syfony_f.th2
 
 join otwor mylna_rura
 join mylna_rura gorne_obejscie
@@ -19,3 +25,33 @@ join wyznia_matka gorne_obejscie
 join slizgawka wyznia_matka
 join traba slizgawka
 join problem_speleoklubu slizgawka
+join slizgawka trzy_syfony_a
+join trzy_syfony_a trzy_syfony_b
+join trzy_syfony_b trzy_syfony_c
+join trzy_syfony_c trzy_syfony_d
+
+# map top
+#    otwor
+#    mylna_rura
+#    gorne_obejscie
+#    suche_dno_dol
+#    suche_dno_gora
+#    wyznia_matka
+#    slizgawka
+#    traba
+#    problem_speleoklubu
+#    trzy_syfony_a
+#    trzy_syfony_b
+#    trzy_syfony_c
+# endmap
+
+# map bottom
+#    trzy_syfony_d
+#    trzy_syfony_e
+#    trzy_syfony_f
+# endmap
+
+# map with_offsets
+#    top
+#    bottom [0 -20 m] below
+# endmap

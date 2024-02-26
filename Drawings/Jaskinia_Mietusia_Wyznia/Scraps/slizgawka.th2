@@ -1,7 +1,8 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128 -2529 2833 128
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -136.0 -2481.0 2825.0 176.0
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} slizgawka_plan.png 0 {}
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} PNGs/slizgawka_plan.png 0 {}
 
 
 
@@ -211,10 +212,10 @@ line wall
   smooth off
   240.5 -2202.0 247.5 -2221.0 245.0 -2227.5
   242.5 -2234.0 241.5 -2256.5 238.0 -2261.5
-  234.5 -2266.5 233.0 -2280.0 227.5 -2287.5
-  222.0 -2295.0 218.5 -2300.5 209.5 -2305.0
-  200.5 -2309.5 194.0 -2304.5 187.0 -2298.0
-  180.0 -2291.5 173.0 -2285.5 173.5 -2272.5
+endline
+
+line wall
+  173.5 -2272.5
   174.0 -2259.5 175.0 -2250.5 176.0 -2237.5
   177.0 -2224.5 180.0 -2210.5 171.0 -2208.5
   162.0 -2206.5 158.5 -2198.5 151.5 -2198.5
