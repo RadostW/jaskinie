@@ -78,7 +78,7 @@ layout main
     %%%    
     \def\maplayout{
       \legendbox{0}{100}{NW}{\the\legendcontent}
-      \legendbox{80}{80}{center}{\northarrow}
+      %\legendbox{80}{80}{center}{\northarrow}
       \ifaltitudebar\legendbox{25}{100}{NW}{\altitudebar}\fi
     }
     

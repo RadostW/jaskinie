@@ -30,28 +30,41 @@ join trzy_syfony_a trzy_syfony_b
 join trzy_syfony_b trzy_syfony_c
 join trzy_syfony_c trzy_syfony_d
 
-# map top
-#    otwor
-#    mylna_rura
-#    gorne_obejscie
-#    suche_dno_dol
-#    suche_dno_gora
-#    wyznia_matka
-#    slizgawka
-#    traba
-#    problem_speleoklubu
-#    trzy_syfony_a
-#    trzy_syfony_b
-#    trzy_syfony_c
-# endmap
+map top
+    otwor
+    break
+    mylna_rura
+    break
+    gorne_obejscie
+    break
+    suche_dno_gora
+    break
+    wyznia_matka
+    break
+    slizgawka
+    break
+    traba
+    break
+    problem_speleoklubu
+    break
+    trzy_syfony_a
+    break
+    trzy_syfony_b
+    break
+    trzy_syfony_c 
+    break
+    suche_dno_dol   
+endmap
 
-# map bottom
-#    trzy_syfony_d
-#    trzy_syfony_e
-#    trzy_syfony_f
-# endmap
+map bottom
+    trzy_syfony_d
+    break
+    trzy_syfony_e
+    break
+    trzy_syfony_f
+endmap
 
-# map with_offsets
-#    top
-#    bottom [0 -20 m] below
-# endmap
+map with_offsets
+    top
+    bottom [0 -20 m] below
+endmap

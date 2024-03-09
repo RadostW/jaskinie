@@ -1,0 +1,51 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128 -1112 1424 128
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} PNGs/trzy_syfony_gora_przekroj.png 0 {}
+
+
+
+scrap trzy_syfony_gora -projection extended -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+
+point 533.0 -339.0 label -orientation 220.2
+
+point 443.0 -288.0 label -orientation 223.6
+
+line label -text P
+endline
+
+line wall -id tsbottom
+  309.0 -347.0
+  315.0 -348.0 326.0 -324.0 326.0 -324.0
+  smooth off
+  353.0 -319.0
+  376.0 -355.0
+  376.0 -355.0 411.0 -359.0 418.0 -359.0
+  425.0 -359.0 443.0 -355.0 454.0 -362.0
+  465.0 -369.0 465.0 -381.0 468.0 -390.0
+  471.0 -399.0 474.0 -421.0 469.0 -436.0
+  464.0 -451.0 459.0 -466.0 454.0 -471.0
+  449.0 -476.0 436.0 -481.0 431.0 -487.0
+  smooth off
+endline
+
+line wall -id tstop
+  259.0 -265.0
+  274.0 -264.0 280.0 -246.0 319.0 -249.0
+  358.0 -252.0 391.0 -253.0 396.0 -255.0
+  401.0 -257.0 470.0 -284.0 487.0 -292.0
+  504.0 -300.0 535.75 -336.17 550.0 -357.0
+  563.0 -376.0 558.0 -374.0 560.0 -393.0
+  562.0 -412.0 573.0 -448.0 568.0 -468.0
+  smooth off
+endline
+
+point 445.0 -514.0 station -name trzy_syfony.4
+
+point 540.0 -441.0 station -name trzy_syfony.3
+
+point 397.0 -264.0 station -name trzy_syfony.2
+
+endscrap
+
+

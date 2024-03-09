@@ -4,8 +4,7 @@ source ./Scraps/main.th
 
 input ./Styles/styles.layout
 
-#select with_offsets
-
+select with_offsets
 
 export map -o ./Build/mietusia_wyznia_grayscale.pdf -layout print -layout-scale 1 300
 export map -o ./Build/mietusia_wyznia_color.pdf -layout online -layout-scale 1 300

@@ -330,6 +330,10 @@ point 2938.5 -385.0 continuation
 
 point 2687.0 -572.5 continuation
 
+point 2835.0 -387.5 map-connection
+
+point 1822.0 -706.5 map-connection
+
 line border -id l45-2073--553 -close on -subtype invisible
   1851.0 -640.0
   1851.0 -640.0 1806.0 -665.0 1803.0 -685.0
