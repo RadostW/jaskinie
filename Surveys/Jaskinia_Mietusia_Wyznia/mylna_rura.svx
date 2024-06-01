@@ -3,7 +3,7 @@
 ;    Section_name      Mylna Rura i Gorne Obejscie
 ;    Entry_last_update 2024-02-13
 ;    Author            Weronika Gutfeter - Speleoklub Warszawski
-;    Author            Michal Smaga - Speleoklub Warszawski
+;    Author            Michał Smaga - Speleoklub Warszawski
 ;    Author            Jan Grzeszek - Speleoklub Warszawski
 ;    Licence           CC BY SA 4.0
 ;    Survey_device     DistoX - 2885 - Speleoklub Warszawski

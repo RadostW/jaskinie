@@ -4,9 +4,9 @@
 ;    Entry_last_update 2024-02-13
 ;    Author            Radost Waszkiewicz - Speleoklub Warszawski
 ;    Author            Stanislaw Mielczarek - Speleoklub Warszawski
-;    Author            Michal Smaga - Speleoklub Warszawski
+;    Author            Michał Smaga - Speleoklub Warszawski
 ;    Author            Weronika Gutfeter - Speleoklub Warszawski
-;    Author            Pawel Jarosz - Speleoklub Warszawski
+;    Author            Paweł Jarosz - Speleoklub Warszawski
 ;    Licence           CC BY SA 4.0
 ;    Survey_device     Specified with measurement
 ;

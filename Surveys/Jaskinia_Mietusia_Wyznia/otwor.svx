@@ -3,7 +3,7 @@
 ;    Section_name      Otwor
 ;    Entry_last_update 2024-02-12
 ;    Author            Weronika Gutfeter - Speleoklub Warszawski
-;    Author            Michal Smaga - Speleoklub Warszawski
+;    Author            Michał Smaga - Speleoklub Warszawski
 ;    Author            Jan Grzeszek - Speleoklub Warszawski
 ;    Author            Stanislaw Mielczarek - Speleoklub Warszawski
 ;    Licence           CC BY SA 4.0
@@ -15,7 +15,7 @@
 ; Instrument: DistoX2 2885 - SM-N9005
 
 *begin otwor
-  *date 2021.10.19 
+  *date 2024.02.12
   *team "wg, ms, jg" 
   *units tape meters
   *units compass degrees

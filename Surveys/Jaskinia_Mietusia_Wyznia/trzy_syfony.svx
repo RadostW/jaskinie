@@ -1,3 +1,13 @@
+;  OBLIGATORY FIELDS
+;    Cave_name         Jaskinia Mietusia Wyznia
+;    Section_name      Trzy Syfony
+;    Entry_last_update 2024-02-16
+;    Author            Radost Waszkiewicz - Speleoklub Warszawski
+;    Author            Michał Smaga - Speleoklub Warszawski
+;    Author            Paweł Jarosz - Speleoklub Warszawski
+;    Licence           CC BY SA 4.0
+;    Survey_device     DistoX - 4027
+
 ; 2024.02.18 created by TopoDroid v 6.2.44
 ; trzy_syfony
 ; Instrument: DistoX2 4027 - SM-N9005

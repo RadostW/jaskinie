@@ -5,7 +5,7 @@
 ;    Author            Stanislaw Mielczarek - Speleoklub Warszawski
 ;    Author            Radost Waszkiewicz - Speleoklub Warszawski
 ;    Author            Weronika Gutfeter - Speleoklub Warszawski
-;    Author            Pawel Jarosz - Speleoklub Warszawski
+;    Author            Paweł Jarosz - Speleoklub Warszawski
 ;    Author            Jan Grzeszek - Speleoklub Warszawski
 ;    Licence           CC BY SA 4.0
 ;    Survey_device     DistoX - 4027 - Stanislaw Mielczarek

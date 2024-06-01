@@ -1,0 +1,21 @@
+encoding  utf-8
+
+source ./Scraps/main.th
+input ./Styles/styles.layout
+
+select with_offsets
+
+layout atlas_print
+    copy print
+    scale 1 200
+    page-setup 21 29.7 21 29.7 0.001 0.001 cm
+    size 19.99 28.69 cm
+    overlap 0.5 cm
+    code tex-atlas
+        \def\dopage{\box\mapbox}
+        \insertmaps
+    endcode     
+endlayout
+
+export atlas -o ./Build/mietusia_wyznia_grayscale_atlas.pdf -layout atlas_print -layout-scale 1 200
+

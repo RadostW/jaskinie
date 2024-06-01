@@ -4,7 +4,7 @@
 ;    Entry_last_update 2022-10-23
 ;    Author            Joanna Jurczyk - Speleoklub Warszawski
 ;    Author            Jan Grzeszek - Speleoklub Warszawski
-;    Author            Pawel Nowikowski - Speleoklub Warszawski
+;    Author            Paweł Nowikowski - Speleoklub Warszawski
 ;    Author            Marcin Lewandowski - Speleoklub Warszawski
 ;    Author            Stanislaw Mielczarek - Speleoklub Warszawski
 ;    Licence           CC BY SA 4.0
