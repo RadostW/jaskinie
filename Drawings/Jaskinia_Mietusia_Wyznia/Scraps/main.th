@@ -13,22 +13,30 @@ input trzy_syfony_a.th2
 input trzy_syfony_b.th2
 input trzy_syfony_c.th2
 input trzy_syfony_d.th2
+input pawlacz.th2
+input detektor_lawinowy.th2
+
 input trzy_syfony_e.th2
 input trzy_syfony_f.th2
 
-join otwor mylna_rura
-join mylna_rura gorne_obejscie
-join ot1 go1
-join ot2 go2
-join wyznia_matka suche_dno_gora
-join wyznia_matka gorne_obejscie
-join slizgawka wyznia_matka
+join suche_dno_gora wyznia_matka
+join wyznia_matka slizgawka
+
+# join suche_dno_dol detektor_lawinowy
+join sdl:0 dla:0
+join sdm:end dlb:end
+join sdm:0 dlc:0
+join sdr:end dla:end
+
 join traba slizgawka
 join problem_speleoklubu slizgawka
 join slizgawka trzy_syfony_a
 join trzy_syfony_a trzy_syfony_b
 join trzy_syfony_b trzy_syfony_c
 join trzy_syfony_c trzy_syfony_d
+
+join trzy_syfony_d pawlacz
+join pawlacz trzy_syfony_e
 
 map top
     otwor
@@ -53,13 +61,20 @@ map top
     break
     trzy_syfony_c 
     break
-    suche_dno_dol   
+    suche_dno_dol
+    break
+    detektor_lawinowy
+    break   
 endmap
 
 map bottom
     trzy_syfony_d
     break
-    trzy_syfony_e
+    pawlacz
+    break
+    # trzy_syfony_db
+    # break
+    trzy_syfony_e    
     break
     trzy_syfony_f
 endmap

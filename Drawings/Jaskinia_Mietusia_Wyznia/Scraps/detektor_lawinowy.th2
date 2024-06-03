@@ -1,0 +1,81 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128 -565 564 128
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} PNGs/detektor_lawinowy_plan.png 0 {}
+
+
+
+scrap detektor_lawinowy -projection plan -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+
+point 160.5 -325.5 gradient -orientation 242.0 -scale s
+
+area debris
+  l68-168--296
+endarea
+
+line border -id l68-168--296 -close on -subtype invisible
+  165.5 -292.5
+  199.5 -337.0
+  74.5 -380.5
+  58.5 -334.0
+  165.5 -292.5
+endline
+
+point 265.5 -308.0 gradient -orientation 285.5 -scale s
+
+line wall -id dlb
+  226.5 -271.5
+  230.0 -277.5 239.5 -280.0 243.5 -280.0
+  247.5 -280.0 261.5 -283.0 264.0 -283.5
+  266.5 -284.0 276.0 -288.5 282.5 -286.5
+  289.0 -284.5 296.5 -282.0 294.0 -277.5
+  smooth off
+endline
+
+area water
+endarea
+
+line wall -id dlc
+  236.0 -240.5
+  234.5 -245.5 233.0 -250.5 230.5 -254.5
+  228.0 -258.5 227.58 -266.91 226.5 -271.5
+  smooth off
+endline
+
+point 37.75 -365.25 label -text "8.1m" -scale s
+
+line arrow -head both
+  75.25 -354.25
+  75.25 -409.0
+endline
+
+line wall -id dla
+  276.5 -330.0
+  263.5 -329.5 232.0 -325.5 225.0 -325.5
+  218.0 -325.5 182.0 -325.0 179.0 -326.5
+  176.0 -328.0 151.0 -344.0 147.5 -348.0
+  144.0 -352.0 134.5 -357.0 126.5 -356.0
+  118.5 -355.0 107.0 -355.5 100.5 -358.5
+  94.0 -361.5 86.0 -360.5 83.5 -359.0
+  81.0 -357.5 75.0 -353.0 77.5 -348.5
+  80.0 -344.0 93.0 -337.5 98.0 -336.5
+  103.0 -335.5 132.0 -325.0 136.5 -323.0
+  141.0 -321.0 155.0 -316.0 161.0 -311.5
+  167.0 -307.0 179.5 -295.0 184.0 -290.5
+  188.5 -286.0 194.0 -273.5 199.0 -267.0
+  204.0 -260.5 211.5 -251.0 212.5 -246.5
+endline
+
+point 83.0 -353.0 station -name detektor_lawinowy.99
+
+point 110.0 -343.0 station -name detektor_lawinowy.3
+
+point 142.5 -336.0 station -name detektor_lawinowy.2
+
+point 202.5 -293.5 station -name detektor_lawinowy.0
+
+point 321.5 -317.0 station -name detektor_lawinowy.1
+
+endscrap
+
+
