@@ -12,18 +12,18 @@ This repository as a colleciton of works is licensed under CC BY SA 4.0 license.
 
 ## Contributors
 
-|        name        |         club        |
-|--------------------|---------------------|
-|    Jan Grzeszek    |Speleoklub Warszawski|
-|   Joanna Jurczyk   |Speleoklub Warszawski|
-| Marcin Lewandowski |Speleoklub Warszawski|
-|    Michal Smaga    |Speleoklub Warszawski|
-|    Pawel Jarosz    |Speleoklub Warszawski|
-|  Pawel Nowikowski  |Speleoklub Warszawski|
-| Radost Waszkiewicz |Speleoklub Warszawski|
-|Stanislaw Mielczarek|Speleoklub Warszawski|
-|  Weronika Gutfeter |Speleoklub Warszawski|
-
+|        name        |                  club                  |
+|--------------------|----------------------------------------|
+|    Jan Grzeszek    |          Speleoklub Warszawski         |
+|   Joanna Jurczyk   |          Speleoklub Warszawski         |
+| Marcin Lewandowski |          Speleoklub Warszawski         |
+|   Michał Gabzdyl   |Tatrzański Klub Taternictwa Jaskiniowego|
+|    Michał Smaga    |          Speleoklub Warszawski         |
+|    Paweł Jarosz    |          Speleoklub Warszawski         |
+|  Paweł Nowikowski  |          Speleoklub Warszawski         |
+| Radost Waszkiewicz |          Speleoklub Warszawski         |
+|Stanislaw Mielczarek|          Speleoklub Warszawski         |
+|  Weronika Gutfeter |          Speleoklub Warszawski         |
 
 ## Why start over
 
