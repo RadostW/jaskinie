@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128 -1759 1474 128
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} PNGs/suche_dno_przekroj.png 0 {}
 
 
@@ -23,14 +23,12 @@ point 540.0 -1125.0 water-flow -orientation 179.5
 line wall
 endline
 
-line wall -close on
-  489.0 -1280.0
-  478.0 -1291.0 464.0 -1301.0 449.0 -1305.0
-  434.0 -1309.0 429.0 -1304.0 432.0 -1292.0
-  435.0 -1280.0 444.0 -1267.0 452.0 -1260.0
-  460.0 -1253.0 477.0 -1253.0 484.0 -1249.0
-  491.0 -1245.0 510.0 -1246.0 507.0 -1254.0
-  504.0 -1262.0 500.0 -1269.0 489.0 -1280.0
+line wall -id sdb
+  452.0 -1260.0
+  460.0 -1253.0 457.5 -1257.0 464.5 -1253.0
+  471.5 -1249.0 501.0 -1261.5 500.5 -1269.0
+  499.93 -1277.53 488.5 -1284.0 472.5 -1291.0
+  smooth off
 endline
 
 line wall -close on
@@ -41,7 +39,7 @@ line wall -close on
   542.0 -1245.0 558.0 -1260.0 565.0 -1270.0
 endline
 
-line wall -subtype blocks
+line wall -subtype debris
   489.0 -1457.0
   489.0 -1457.0 490.0 -1482.0 492.0 -1488.0
   494.0 -1494.0 489.0 -1521.0 495.0 -1533.0
@@ -50,22 +48,6 @@ line wall -subtype blocks
   541.0 -1524.0 547.0 -1489.0 547.0 -1489.0
   smooth off
   542.0 -1470.0
-endline
-
-line wall -subtype presumed
-  360.0 -1388.0
-  360.0 -1388.0 367.0 -1367.0 370.0 -1359.0
-  373.0 -1351.0 383.0 -1306.0 383.0 -1296.0
-  383.0 -1286.0 377.0 -1255.0 384.0 -1246.0
-  391.0 -1237.0 424.0 -1230.0 424.0 -1230.0
-  smooth off
-endline
-
-line wall -subtype presumed
-  417.0 -1365.0
-  417.0 -1365.0 401.0 -1365.0 396.0 -1372.0
-  391.0 -1379.0 379.0 -1385.0 376.0 -1398.0
-  smooth off
 endline
 
 line wall
@@ -78,7 +60,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -id sdc
   417.0 -1365.0
   417.0 -1365.0 427.0 -1361.0 444.0 -1365.0
   461.0 -1369.0 467.0 -1372.0 472.0 -1381.0

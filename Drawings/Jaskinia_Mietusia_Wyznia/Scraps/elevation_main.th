@@ -48,6 +48,10 @@ centerline
     extend right trzy_syfony.5 trzy_syfony.6
     extend right trzy_syfony.6
     
+    extend left pawlacz.7 pawlacz.9
+    extend right pawlacz.9 pawlacz.10
+    extend vertical pawlacz.2 pawlacz.1
+    extend right pawlacz.1 pawlacz.0
 endcenterline
 
 input elevation_otwor.th2
@@ -60,8 +64,13 @@ input elevation_slizgawka.th2
 input elevation_problem_speleoklubu.th2
 input elevation_suche_dno.th2
 input elevation_trzy_syfony_gora.th2
+
+input elevation_pawlacz.th2
+
 input elevation_trzy_syfony_dol.th2
 input elevation_trzy_syfony_kopanie.th2
+
+input elevation_detektor_lawinowy.th2
 
 join otwor otwor_lacznik
 join otwor mylna_rura
@@ -84,3 +93,11 @@ join tstop slrt:tst
 
 join trzy_syfony_gora trzy_syfony_dol
 join trzy_syfony_dol trzy_syfony_kopanie
+
+join trzy_syfony_dol pawlacz
+
+#join suche_dno detektor_lawinowy
+join dla:end sdrt:end
+join dlb:0 sdb:0
+join dlc:end sdb:end
+join dld:end sdc:0

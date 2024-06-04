@@ -1,0 +1,85 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -252.5 -961.0 512 139.5
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} PNGs/detektor_lawinowy_przekroj.png 0 {}
+
+
+
+scrap detektor_lawinowy -projection extended -scale [-128 -834 512 -834 0.0 0.0 16.256 0.0 m]
+
+line wall
+endline
+
+line wall -id dla
+  41.0 -628.5
+  41.0 -628.5 38.5 -624.0 46.5 -613.5
+  54.5 -603.0 78.5 -561.0 83.5 -550.5
+  88.5 -540.0 110.0 -510.5 114.0 -507.5
+  118.0 -504.5 159.0 -471.5 165.0 -466.0
+  171.0 -460.5 179.5 -430.0 184.5 -423.5
+  189.5 -417.0 199.0 -379.0 204.0 -373.5
+endline
+
+line wall -subtype debris
+endline
+
+line wall -subtype debris
+  79.5 -627.0
+  79.5 -627.0 64.0 -630.5 59.5 -630.5
+  55.0 -630.5 40.0 -633.5 41.0 -628.5
+  smooth off
+endline
+
+line wall -id dlc
+  241.0 -389.5
+  241.0 -389.5 233.0 -400.0 239.0 -406.0
+  245.0 -412.0 261.5 -413.0 264.5 -413.0
+  smooth off
+endline
+
+line wall -id dlb
+  265.5 -377.5
+  265.5 -377.5 246.0 -379.5 241.0 -389.5
+  smooth off
+endline
+
+line wall
+endline
+
+point -46.0 -791.5 label -scale xs -text "(pomiar detektorem lawinowym)" -align r
+
+point -46.0 -764.0 label -scale xs -text "8.1 m" -align r
+
+line arrow -head both
+  39.0 -644.5
+  -212.5 -921.5
+endline
+
+line wall -id dld
+  198.0 -484.0
+  198.0 -484.0 221.0 -484.5 226.0 -484.5
+  231.0 -484.5 251.0 -483.5 257.5 -483.0
+  smooth off
+endline
+
+line wall
+  198.0 -484.0
+  188.0 -492.0 138.0 -519.0 131.0 -527.0
+  124.0 -535.0 94.0 -596.0 93.0 -599.0
+  92.0 -602.0 87.0 -625.5 79.5 -627.0
+  smooth off
+endline
+
+point 59.0 -625.0 station -name detektor_lawinowy.99
+
+point 91.0 -591.0 station -name detektor_lawinowy.3
+
+point 120.0 -511.0 station -name detektor_lawinowy.2
+
+point 276.0 -316.0 station -name suche_dno.3
+
+point 197.0 -463.0 station -name detektor_lawinowy.0
+
+endscrap
+
+
