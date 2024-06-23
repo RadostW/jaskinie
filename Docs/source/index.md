@@ -5,15 +5,13 @@
 | Jaskinia        | Plan                                     | Plan                                        | Przekrój                                           | Przekrój                                              |
 |-----------------|------------------------------------------|---------------------------------------------|----------------------------------------------------|-------------------------------------------------------|
 | Miętusia Wyżnia | [kolor](plany/mietusia_wyznia_color.pdf) | [cz-b](plany/mietusia_wyznia_grayscale.pdf) | [kolor](plany/mietusia_wyznia_color_elevation.pdf) | [cz-b](plany/mietusia_wyznia_grayscale_elevation.pdf) |
-| Miętusia        | [kolor](plany/mietusia_color.pdf)        |                                             |                                                    |                                                       |
-
+| Miętusia        | [kolor](plany/mietusia_color.pdf)        | [cz-b](plany/mietusia_grayscale.pdf)        | [kolor](plany/mietusia_color_elevation.pdf)        | [cz-b](plany/mietusia_grayscale_elevation.pdf)        |
 
 ## Opisy jaskiń
 
 * [Jaskinia Miętusia Wyżnia](jaskinie/jaskinia_mietusia_wyznia.md)
 * [Jaskinia Czarna](jaskinie/jaskinia_czarna.md)
 * [Jaskinia Miętusia](jaskinie/jaskinia_mietusia.md)
-
 
 ## Podgląd 3D
 
