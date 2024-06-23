@@ -28,9 +28,9 @@
     *include rura_res_b
     *include rura_res_c
             
-    *equate rura_res_a.0 rura.0
-    *equate rura_res_b.0 rura.0
-    *equate rura_res_c.0 rura.0
+    *equate rura.0 rura_res_a.0
+    *equate rura.0 rura_res_b.0
+    *equate rura.0 rura_res_c.0
         
     *equate rura_res_a.10  rura.11
     *equate rura_res_b.9 rura.11
