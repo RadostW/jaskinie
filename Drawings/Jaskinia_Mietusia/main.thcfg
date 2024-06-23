@@ -4,6 +4,8 @@ source ./Scraps/main.th
 
 input ./Styles/styles.layout
 
-export map -o ./Build/mietusia.pdf -layout clean -layout-scale 1 300
+export map -o ./Build/mietusia_grayscale.pdf -layout print -layout-scale 1 300
+export map -o ./Build/mietusia_color.pdf -layout online -layout-scale 1 300
+
 export map -o ./Build/mietusia_debug.pdf -layout debug -layout-scale 1 300
 

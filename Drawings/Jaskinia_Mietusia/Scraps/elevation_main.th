@@ -1,0 +1,29 @@
+import ../Centreline/mietusia.3d -surveys ignore -filter mietusia.
+
+centerline
+    extend start rura.0
+    extend left rura.1
+    extend right matka_boska.14
+
+    # untangle resurveys
+    extend ignore rura_res_a.1
+    extend ignore rura_res_b.1
+    extend ignore rura_res_c.1
+    extend ignore rura_res_a.9
+    extend ignore rura_res_b.8 
+    extend ignore rura_res_b.10
+    extend ignore rura_res_c.8
+    extend ignore rura_res_c.10
+    extend ignore rura_res_b.37 
+    extend ignore rura_res_c.37 
+
+    extend ignore powierzchnia.1
+endcenterline
+
+input elevation_rura_top.th2
+input elevation_rura_bottom.th2
+input elevation_matka_boska.th2
+
+join rura_top rura_bottom
+join rura_bottom matka_boska
+

@@ -1,7 +1,7 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128 -2022 3741 128
 ##XTHERION## xth_me_area_zoom_to 400
-##XTHERION## xth_me_image_insert {-28.5 1 1.0} {89.25 {}} rura_bottom_plan.png 0 {}
+##XTHERION## xth_me_image_insert {-28.5 1 1.0} {89.25 {}} ./PNGs/rura_bottom_plan.png 0 {}
 
 scrap rurabottom -scale [-128 -2022 3741 -2022 0.0 0.0 98.2726 0.0 m]
 

@@ -1,0 +1,10 @@
+encoding  utf-8
+
+source ./Scraps/elevation_main.th
+         
+input ./Styles/styles.layout
+
+export map -o ./Build/mietusia_grayscale_elevation.pdf -projection extended -layout print -layout-scale 1 300
+export map -o ./Build/mietusia_color_elevation.pdf -projection extended -layout online -layout-scale 1 300
+
+export map -o ./Build/mietusia_elevation_debug.pdf -projection extended -layout debug -layout-scale 1 300
