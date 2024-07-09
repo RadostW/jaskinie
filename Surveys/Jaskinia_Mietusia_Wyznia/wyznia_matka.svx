@@ -325,8 +325,10 @@
   18 - 4.71 144.5 44.1
   18 - 3.79 183.8 55.1
   18 - 2.68 202.6 55.9
+  *flags duplicate
     18 22   5.46 144.4 45.2
     22 23   13.20 139.4 59.7
+  *flags not duplicate
   *flags not splay
 *units left meters
 *units right meters
@@ -375,5 +377,6 @@
 18  3.14 1.38 5.87 0.06
 22  0.00 0.00 0.00 0.00
 23  0.00 0.00 0.00 0.00
+
 
 *end wyznia_matka
