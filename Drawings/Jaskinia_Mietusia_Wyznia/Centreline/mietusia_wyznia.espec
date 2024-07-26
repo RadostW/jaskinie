@@ -1,0 +1,101 @@
+*start mietusia_wyznia.otwor.0
+*eleft mietusia_wyznia.otwor.0
+
+*eright mietusia_wyznia.komin.1 mietusia_wyznia.mylna_rura.26
+*eright mietusia_wyznia.mylna_rura.26
+
+*eleft mietusia_wyznia.mylna_rura.19
+*eright mietusia_wyznia.mr_studnia.2
+
+*eright mietusia_wyznia.komin.0 komin.1
+
+*break mietusia_wyznia.mr_studnia.0 mietusia_wyznia.mr_studnia.2   
+*break mietusia_wyznia.mr_studnia.2 mietusia_wyznia.mr_studnia.3   
+*break mietusia_wyznia.mr_studnia.3 mietusia_wyznia.mr_studnia.4 
+*break mietusia_wyznia.mr_studnia.2 mietusia_wyznia.mr_studnia.5   
+*break mietusia_wyznia.mr_studnia.5 mietusia_wyznia.mr_studnia.6 
+*break mietusia_wyznia.mr_studnia.5 mietusia_wyznia.mr_studnia.7  
+*break mietusia_wyznia.mr_studnia.7 mietusia_wyznia.mr_studnia.8  
+*break mietusia_wyznia.mr_studnia.5 mietusia_wyznia.mr_studnia.9  
+*break mietusia_wyznia.mr_studnia.9 mietusia_wyznia.mr_studnia.10   
+*break mietusia_wyznia.mr_studnia.5 mietusia_wyznia.mr_studnia.11  
+*break mietusia_wyznia.mr_studnia.11 mietusia_wyznia.mr_studnia.12
+
+*break mietusia_wyznia.komin.0 mietusia_wyznia.komin.1
+*break mietusia_wyznia.komin.0 mietusia_wyznia.komin.2
+*break mietusia_wyznia.komin.0 mietusia_wyznia.komin.3
+*break mietusia_wyznia.komin.3 mietusia_wyznia.komin.4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;extend ignore mylna_rura.c mr_studnia.0        
+;extend right wyznia_matka.18 wyznia_matka.22
+;extend right wyznia_matka.22
+
+;extend left wyznia_matka.15
+            
+;extend ignore traba.2 traba.1
+;extend vertical traba.1 traba.3
+;extend right traba.3 traba.4
+;extend right traba.4
+
+;extend right suche_dno.8 suche_dno.9
+
+;extend right suche_dno.9 suche_dno.11
+
+;extend right suche_dno.11 traba.0
+
+;extend right suche_dno.4 suche_dno.5
+;extend right suche_dno.5 suche_dno.6
+;extend vertical suche_dno.0 suche_dno.1
+;extend vertical suche_dno.2 suche_dno.0
+;extend vertical suche_dno.3 suche_dno.2
+;extend vertical suche_dno.8 suche_dno.6
+
+;extend left suche_dno.3 suche_dno.4
+
+;extend left problem_speleoklubu.12 problem_speleoklubu.13    
+;extend right problem_speleoklubu.13
+
+;extend right problem_speleoklubu.0 trzy_syfony.2
+;extend right trzy_syfony.2 trzy_syfony.3
+;extend left trzy_syfony.3 trzy_syfony.4
+;extend left trzy_syfony.4 trzy_syfony.5
+;extend right trzy_syfony.5 trzy_syfony.6
+;extend right trzy_syfony.6
+
+;extend left pawlacz.7 pawlacz.9
+;extend right pawlacz.9 pawlacz.10
+;extend vertical pawlacz.2 pawlacz.1
+;extend right pawlacz.1 pawlacz.0    
+
+;This is a comment
+
+; start the elevation at station entrance.a
+;*start entrance.a  ;this is a comment after a command
+
+; start extending leftwards from station half-way-down.5
+;*eleft half-way-down.5
+
+; change direction of extension at further-down.8
+;*eswap further-down.8
+
+; extend right from further-down.junction, but only for
+; the leg joining it to very-deep.1, other legs continuing
+; as before
+;*eright further-down.junction  very-deep.1
+
+; break the survey at station side-loop.4
+;*break side-loop.4
