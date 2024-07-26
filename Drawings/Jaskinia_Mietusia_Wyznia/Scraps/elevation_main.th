@@ -1,12 +1,12 @@
-import ../Centreline/mietusia_wyznia.3d -surveys ignore -filter mietusia_wyznia.
+import ../Centreline/mietusia_wyznia_simplified.3d -surveys ignore -filter mietusia_wyznia.
 
 centerline
     extend start otwor.0
     extend right otwor.1 otwor.lewy0 
     extend right otwor.0 otwor.gps
     extend left otwor.0
-
-    extend right wyznia_matka.19 mylna_rura.b
+    
+    #extend right komin.0 komin.2
     extend right otwor.17 otwor.18
     extend right otwor.18 mylna_rura.19
     extend right mylna_rura.b
@@ -52,6 +52,11 @@ centerline
     extend right pawlacz.9 pawlacz.10
     extend vertical pawlacz.2 pawlacz.1
     extend right pawlacz.1 pawlacz.0
+
+    extend right komin.4
+    extend left komin.8 komin.9
+    extend vertical komin.5 komin.6
+    extend vertical komin.9 komin.10
 endcenterline
 
 input elevation_otwor.th2
@@ -71,6 +76,8 @@ input elevation_trzy_syfony_dol.th2
 input elevation_trzy_syfony_kopanie.th2
 
 input elevation_detektor_lawinowy.th2
+
+input elevation_komin.th2
 
 join otwor otwor_lacznik
 join otwor mylna_rura
@@ -101,3 +108,5 @@ join dla:end sdrt:end
 join dlb:0 sdb:0
 join dlc:end sdb:end
 join dld:end sdc:0
+
+join komin wyznia_matka

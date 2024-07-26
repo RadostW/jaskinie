@@ -59,7 +59,7 @@ line wall -id gotop
   smooth off
 endline
 
-point 276.0 -497.0 station -name mylna_rura.27
+point 276.0 -497.0 station #-name mylna_rura.27
 
 point 359.0 -491.0 station -name mylna_rura.26
 

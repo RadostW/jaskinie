@@ -19,7 +19,7 @@ point 1886.0 -1232.0 station -name mylna_rura.d
 
 point 1288.0 -1192.0 station -name mylna_rura.c
 
-point 862.0 -1124.0 station -name mylna_rura.b
+point 862.0 -1124.0 station #-name mylna_rura.b
 
 line wall
   728.0 -1200.0

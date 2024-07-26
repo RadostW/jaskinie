@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128 -1461 3651 128
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} PNGs/wyznia_matka_przekroj.png 0 {}
 
 
@@ -8,25 +8,6 @@ encoding  utf-8
 scrap wyznia_matka -projection extended -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
 
 line wall -subtype presumed
-endline
-
-line wall -subtype presumed
-  3350.0 -239.0
-  3350.0 -239.0 3359.0 -213.0 3368.0 -200.0
-  3377.0 -187.0 3382.0 -172.0 3390.0 -150.0
-  3398.0 -128.0 3415.0 -122.0 3426.0 -96.0
-  3437.0 -70.0 3458.0 -52.0 3461.0 -45.0
-  smooth off
-endline
-
-line wall -subtype presumed
-  3384.0 -255.0
-  3384.0 -255.0 3379.0 -253.0 3393.0 -229.0
-  3407.0 -205.0 3406.0 -188.0 3414.0 -182.0
-  3422.0 -176.0 3428.0 -173.0 3438.0 -151.0
-  3448.0 -129.0 3457.0 -127.0 3468.0 -101.0
-  3479.0 -75.0 3487.0 -65.0 3492.0 -52.0
-  smooth off
 endline
 
 line wall -subtype presumed
@@ -142,9 +123,8 @@ line wall:debris
 endline
 
 line wall -id mbb
-  3384.0 -255.0
-  3384.0 -255.0 3360.0 -309.0 3352.0 -319.0
-  3344.0 -329.0 3283.0 -433.0 3271.0 -442.0
+  3352.0 -204.0
+  3349.0 -224.0 3283.0 -433.0 3271.0 -442.0
   3259.0 -451.0 3219.0 -517.0 3217.0 -527.0
   mark mbbottom
   3215.0 -537.0 3194.0 -568.0 3187.0 -574.0
@@ -237,14 +217,13 @@ line wall -id mbt
   smooth off
   mark mbtop
   3153.0 -514.0 3196.0 -481.0 3204.0 -470.0
-  3212.0 -459.0 3313.0 -303.0 3318.0 -295.0
-  3323.0 -287.0 3347.0 -248.0 3350.0 -239.0
+  3212.0 -459.0 3298.0 -276.0 3310.0 -194.0
   smooth off
 endline
 
 point 3449.0 -98.0 station -name wyznia_matka.23
 
-point 3186.0 -551.0 station -name wyznia_matka.22
+#point 3186.0 -551.0 station -name wyznia_matka.22
 
 point 3032.0 -703.0 station -name wyznia_matka.18
 
