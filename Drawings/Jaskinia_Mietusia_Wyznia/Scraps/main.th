@@ -19,6 +19,10 @@ input detektor_lawinowy.th2
 input trzy_syfony_e.th2
 input trzy_syfony_f.th2
 
+input pierwsze_obejscie.th2
+input komin.th2
+input mr_studnia.th2
+
 join otwor mylna_rura
 join mylna_rura gorne_obejscie
 join ot1 go1
@@ -46,6 +50,10 @@ join trzy_syfony_c trzy_syfony_d
 join trzy_syfony_d pawlacz
 join pawlacz trzy_syfony_e
 
+join pierwsze_obejscie otwor
+join komin wyznia_matka
+join mr_studnia otwor
+
 map top
     otwor
     break
@@ -72,7 +80,13 @@ map top
     suche_dno_dol
     break
     detektor_lawinowy
+    break
+    pierwsze_obejscie
     break   
+    komin
+    break
+    mr_studnia
+    break
 endmap
 
 map bottom

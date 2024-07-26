@@ -1,7 +1,8 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128 -805 1459 128
+##XTHERION## xth_me_area_adjust -132.0 -760.0 1455.0 173.0
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} gorne_obejscie_plan.png 0 {}
+##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} PNGs/gorne_obejscie_plan.png 0 {}
 
 
 

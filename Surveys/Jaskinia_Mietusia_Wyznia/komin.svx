@@ -5,6 +5,7 @@
 ;    Author            Konrad Teleman - Speleoklub Warszawski
 ;    Author            Karolina Kowalczyk - Speleoklub Warszawski
 ;    Author            Marek Wągrodzki - Speleoklub Warszawski
+;    Author            Stanisław Mielczarek - Speleoklub Warszawski
 ;    Licence           CC BY SA 4.0
 ;    Survey_device     DistoXble - 0109 - JG
 

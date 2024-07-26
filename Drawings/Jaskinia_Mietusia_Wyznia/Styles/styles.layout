@@ -17,6 +17,7 @@ layout passage-white
 endlayout passage-white
 
 lookup altitude:uniform
+40  [99	5	0]
 20  [99	19	0]
 0  [100	57	8]
 -20  [92	80	17]
@@ -64,14 +65,26 @@ layout main
     \topoteam={_placeholder_}
     \def\authorslist{\par
     {\bf Speleoklub Warszawski:}
-    {Jan Grzeszek},
-    {Weronika Gutfeter},
-    {Paweł Jarosz},\par
-    {Stanisław Mielczarek},
-    {Michał Smaga},
-    {Radost Waszkiewicz}\par
+    {Jan Grzeszek}, {Weronika Gutfeter}, {Paweł Jarosz},\par
+    {Marcin Kobus}, {Karolina Kowalczyk}, {Stanisław Mielczarek}, \par
+    {Małgorzata Pawlak}, {Michał Smaga}, {Konrad Teleman}, \par
+    {Radost Waszkiewicz}, {Marek Wągrodzki}\par
     {\it oraz}
     {Michał Gabzdyl (ST)}}
+
+  % Jan Grzeszek - Speleoklub Warszawski
+  % Weronika Gutfeter - Speleoklub Warszawski
+  % Paweł Jarosz - Speleoklub Warszawski
+  % Marcin Kobus - Speleoklub Warszawski
+  % Karolina Kowalczyk - Speleoklub Warszawski
+  % Stanisław Mielczarek - Speleoklub Warszawski
+  % Małgorzata Pawlak - Speleoklub Warszawski
+  % Michał Smaga - Speleoklub Warszawski
+  % Konrad Teleman - Speleoklub Warszawski
+  % Radost Waszkiewicz - Speleoklub Warszawski
+  % Marek Wągrodzki - Speleoklub Warszawski
+
+  % Michał Gabzdyl - Speleoklub Tatrzański
 
     \license={CC BY-SA 4.0}
     
