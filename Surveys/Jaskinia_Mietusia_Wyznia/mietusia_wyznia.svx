@@ -34,6 +34,8 @@
     *include obejscie
     *include odejscie_l2
     *include mr_studnia
+    
+    *include urlop_tacierzynski
 
     *equate mylna_rura.19 otwor.19
     *equate mylna_rura.20 otwor.20
@@ -79,6 +81,8 @@
     *equate mr_studnia.2 otwor.17
     *equate mr_studnia.0 otwor.16
     *equate mr_studnia.6 otwor.19
+    
+    *equate urlop_tacierzynski.0 pawlacz.7
        
     ; ===================
     ; Digitized from plan and elevation

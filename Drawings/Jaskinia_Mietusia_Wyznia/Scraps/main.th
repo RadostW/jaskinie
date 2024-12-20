@@ -23,6 +23,10 @@ input pierwsze_obejscie.th2
 input komin.th2
 input mr_studnia.th2
 
+input urlop_tacierzynski_a.th2
+input urlop_tacierzynski_b.th2
+input urlop_tacierzynski_c.th2
+
 join otwor mylna_rura
 join mylna_rura gorne_obejscie
 join ot1 go1
@@ -46,6 +50,7 @@ join slizgawka trzy_syfony_a
 join trzy_syfony_a trzy_syfony_b
 join trzy_syfony_b trzy_syfony_c
 join trzy_syfony_c trzy_syfony_d
+join trzy_syfony_e trzy_syfony_f
 
 join trzy_syfony_d pawlacz
 join pawlacz trzy_syfony_e
@@ -53,6 +58,8 @@ join pawlacz trzy_syfony_e
 join pierwsze_obejscie otwor
 join komin wyznia_matka
 join mr_studnia otwor
+
+join trzy_syfony_d urlop_tacierzynski_a
 
 map top
     otwor
@@ -89,7 +96,12 @@ map top
     break
 endmap
 
-map bottom
+map bottom    
+    urlop_tacierzynski_a
+    break
+    urlop_tacierzynski_b
+    break
+    urlop_tacierzynski_c
     trzy_syfony_d
     break
     pawlacz
