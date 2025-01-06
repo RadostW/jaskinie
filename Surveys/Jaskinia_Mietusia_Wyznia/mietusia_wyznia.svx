@@ -36,6 +36,7 @@
     *include mr_studnia
     
     *include urlop_tacierzynski
+    *include perystaltyka
 
     *equate mylna_rura.19 otwor.19
     *equate mylna_rura.20 otwor.20
@@ -83,6 +84,8 @@
     *equate mr_studnia.6 otwor.19
     
     *equate urlop_tacierzynski.0 pawlacz.7
+    
+    *equate mylna_rura.23 perystaltyka.2
        
     ; ===================
     ; Digitized from plan and elevation

@@ -1,7 +1,7 @@
 ;  OBLIGATORY FIELDS
 ;    Cave_name         Jaskinia Mietusia Wyznia
 ;    Section_name      Urlop tacierzynski
-;    Entry_last_update 2024-10-08
+;    Entry_last_update 2024-12-07
 ;    Author            Radost Waszkiewicz - Speleoklub Warszawski
 ;    Author            Michał Smaga - Speleoklub Warszawski
 ;    Author            Krzysztof Chojnacki - Speleoklub Warszawski
