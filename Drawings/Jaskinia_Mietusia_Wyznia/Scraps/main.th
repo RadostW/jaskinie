@@ -27,6 +27,9 @@ input urlop_tacierzynski_a.th2
 input urlop_tacierzynski_b.th2
 input urlop_tacierzynski_c.th2
 
+input perystaltyka_a.th2
+input perystaltyka_b.th2
+
 join otwor mylna_rura
 join mylna_rura gorne_obejscie
 join ot1 go1
@@ -61,6 +64,8 @@ join mr_studnia otwor
 
 join trzy_syfony_d urlop_tacierzynski_a
 
+join perystaltyka_a gorne_obejscie
+
 map top
     otwor
     break
@@ -94,6 +99,9 @@ map top
     break
     mr_studnia
     break
+    perystaltyka_a
+    break
+    perystaltyka_b
 endmap
 
 map bottom    

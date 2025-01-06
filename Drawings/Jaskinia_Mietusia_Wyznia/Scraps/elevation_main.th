@@ -57,6 +57,14 @@ centerline
     extend left komin.8 komin.9
     extend vertical komin.5 komin.6
     extend vertical komin.9 komin.10
+
+    extend left pawlacz.7 urlop_tacierzynski.1
+    extend left urlop_tacierzynski.1 urlop_tacierzynski.2
+    extend left urlop_tacierzynski.11 urlop_tacierzynski.12
+    extend left urlop_tacierzynski.14 urlop_tacierzynski.15
+    extend left urlop_tacierzynski.15 urlop_tacierzynski.16
+    extend left urlop_tacierzynski.16 urlop_tacierzynski.17
+    extend left urlop_tacierzynski.14 urlop_tacierzynski.18
 endcenterline
 
 input elevation_otwor.th2
@@ -78,6 +86,9 @@ input elevation_trzy_syfony_kopanie.th2
 input elevation_detektor_lawinowy.th2
 
 input elevation_komin.th2
+
+input elevation_urlop_tacierzynski_a.th2
+input elevation_urlop_tacierzynski_b.th2
 
 join otwor otwor_lacznik
 join otwor mylna_rura
@@ -110,3 +121,52 @@ join dlc:end sdb:end
 join dld:end sdc:0
 
 join komin wyznia_matka
+
+join urlop_tacierzynski_a trzy_syfony_dol
+join ut_a ts_a
+join ut_b ts_b
+
+join urlop_tacierzynski_a urlop_tacierzynski_b
+
+map base
+    otwor
+    break
+    otwor_lacznik
+    break
+    gorne_obejscie
+    break
+    mylna_rura
+    break
+    wyznia_matka
+    break
+    komin
+    break
+    suche_dno
+    break
+    detektor_lawinowy
+    break
+    slizgawka
+    break
+    problem_speleoklubu
+    break
+    trzy_syfony_gora
+    break
+    trzy_syfony_dol
+    break
+    pawlacz
+    break
+    #urlop_tacierzynski_a
+    #urlop_tacierzynski_b
+    trzy_syfony_kopanie
+endmap
+
+map urlop
+    urlop_tacierzynski_a
+    break
+    urlop_tacierzynski_b
+endmap    
+
+map with_offsets
+    base
+    urlop [30 0 m] below
+endmap
