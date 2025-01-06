@@ -4,6 +4,8 @@ source ./Scraps/elevation_main.th
          
 input ./Styles/styles.layout
 
+select with_offsets
+
 export map -o ./Build/mietusia_wyznia_grayscale_elevation.pdf -projection extended -layout print -layout-scale 1 300
 export map -o ./Build/mietusia_wyznia_color_elevation.pdf -projection extended -layout online -layout-scale 1 300
 
