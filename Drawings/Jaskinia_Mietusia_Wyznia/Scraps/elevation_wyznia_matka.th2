@@ -225,6 +225,7 @@ point 3449.0 -98.0 station -name wyznia_matka.23
 
 #point 3186.0 -551.0 station -name wyznia_matka.22
 
+
 point 3032.0 -703.0 station -name wyznia_matka.18
 
 point 2878.0 -919.0 station -name wyznia_matka.17
@@ -256,6 +257,8 @@ point 1005.0 -1045.0 station -name wyznia_matka.5
 point 870.0 -1062.0 station -name wyznia_matka.4
 
 point 598.0 -1066.0 station -name wyznia_matka.3
+
+point 3090.0 -946.0 label -scale large -text "S. Matki Boskiej"
 
 point 370.0 -1203.0 station -name wyznia_matka.2
 

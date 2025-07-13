@@ -66,6 +66,8 @@ join trzy_syfony_d urlop_tacierzynski_a
 
 join perystaltyka_a gorne_obejscie
 
+join urlop_tacierzynski_c trzy_syfony_e
+
 map top
     otwor
     break

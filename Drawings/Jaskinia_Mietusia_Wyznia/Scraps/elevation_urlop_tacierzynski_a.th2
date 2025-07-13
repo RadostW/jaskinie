@@ -58,8 +58,6 @@ line floor-step -reverse on
   773.0 -221.0
 endline
 
-point 778.0 -126.5 continuation -scale small
-
 line floor-step -reverse on
   743.5 -167.0
   781.0 -162.5
@@ -97,6 +95,7 @@ line wall
   852.0 -415.5 861.0 -460.0 861.5 -465.0
   862.0 -470.0 875.0 -512.5 876.0 -524.0
   877.0 -535.5 879.0 -577.0 882.0 -594.0
+  smooth off
 endline
 
 point 542.5 -527.0 map-connection

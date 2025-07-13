@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128 -2472 3329 128
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} PNGs/trzy_syfony_dol.png 0 {}
 
 
@@ -16,8 +16,6 @@ point 2229.5 -620.0 gradient -orientation 236.7 -scale small
 point 2288.5 -500.5 gradient -orientation 214.9 -scale small
 
 point 2426.0 -313.0 gradient -orientation 214.9 -scale small
-
-point 2292.0 -654.0 continuation
 
 point 2509.5 -195.5 gradient -orientation 214.9 -scale small
 
@@ -119,6 +117,7 @@ line wall
   2301.0 -418.5 2275.0 -456.0 2266.0 -468.5
   2257.0 -481.0 2226.0 -540.0 2223.5 -550.0
   2221.0 -560.0 2208.25 -580.75 2202.25 -590.25
+  smooth off
 endline
 
 line ceiling-step
@@ -132,6 +131,7 @@ line wall
   2166.25 -670.5
   2166.25 -670.5 2168.0 -663.25 2164.75 -661.25
   2161.5 -659.25 2159.5 -657.25 2156.0 -656.5
+  smooth off
 endline
 
 line wall
@@ -140,11 +140,11 @@ line wall
   smooth off
 endline
 
-line wall -subtype presumed
+line wall
   2246.5 -709.0
   2246.5 -709.0 2252.25 -706.5 2257.25 -703.75
   2262.25 -701.0 2276.5 -685.25 2279.75 -683.25
-  2283.0 -681.25 2292.25 -674.0 2295.0 -673.0
+  2283.0 -681.25 2298.25 -679.0 2301.0 -678.0
   smooth off
 endline
 
@@ -162,10 +162,10 @@ line floor-step
   smooth off
 endline
 
-line wall -subtype presumed
+line wall
   2265.0 -628.0
   2265.0 -628.0 2262.5 -640.25 2266.25 -641.75
-  2270.0 -643.25 2288.0 -644.25 2290.5 -643.75
+  2270.0 -643.25 2296.0 -645.5 2298.5 -645.0
   smooth off
 endline
 
@@ -217,6 +217,10 @@ endline
 point 2831.0 -186.25 continuation
 
 point 2794.5 -154.0 gradient -orientation 310.4 -scale xs
+
+point 2228.0 -454.0 label -orientation 302.2 -scale large -text "2. Studnia"
+
+point 2745.5 -242.0 label -scale large -text "1. Studnia"
 
 point 2607.5 -276.0 continuation
 

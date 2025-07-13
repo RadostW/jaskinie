@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128 -746 987 128
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {0.0 1 1.0} {0.0 {}} PNGs/urlop_tacierzynski-3p.png 0 {}
 
 
@@ -25,16 +25,21 @@ line floor-step -reverse on
   smooth off
 endline
 
-line wall -subtype presumed
+line wall
   208.0 -418.5
   208.0 -418.5 205.0 -423.0 202.25 -426.5
-  199.5 -430.0 190.5 -435.5 186.75 -436.75
+  199.5 -430.0 190.75 -430.75 187.0 -432.0
   smooth off
 endline
 
-line wall -subtype presumed
-  174.75 -408.25
-  178.25 -407.5 191.0 -405.25 191.0 -405.25
+line wall
+  187.0 -432.0
+  157.5 -422.25
+endline
+
+line wall
+  162.0 -401.75
+  166.75 -404.25 192.25 -408.75 192.25 -408.75
   smooth off
   206.75 -404.0
 endline

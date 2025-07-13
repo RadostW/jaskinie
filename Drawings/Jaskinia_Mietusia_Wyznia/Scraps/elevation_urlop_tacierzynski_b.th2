@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -128 -2028 1500 128
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {-4.0 1 1.0} {-115.0 {}} PNGs/urlop_tacierzynski-2s.png 0 {}
 
 
@@ -29,7 +29,7 @@ line wall -close on -outline in
   819.25 -726.75 828.5 -723.0 831.75 -723.5
 endline
 
-line wall -subtype presumed
+line wall
   844.5 -1000.5
   844.5 -1000.5 836.25 -1003.75 831.5 -1003.75
   826.75 -1003.75 806.5 -1002.75 801.25 -1002.75
@@ -84,8 +84,6 @@ line wall
   smooth off
 endline
 
-point 1222.5 -1755.5 station -name urlop_tacierzynski.20
-
 point 1140.5 -1626.5 station -name urlop_tacierzynski.19
 
 point 1085.0 -1583.0 station -name urlop_tacierzynski.18
@@ -112,20 +110,36 @@ endline
 line wall
 endline
 
-line wall -subtype presumed
-  1214.0 -1658.0
-  1214.0 -1658.0 1212.5 -1677.5 1217.5 -1681.0
-  1222.5 -1684.5 1232.5 -1713.0 1237.5 -1719.5
-  1242.5 -1726.0 1254.5 -1752.5 1254.5 -1752.5
+point 894.0 -1117.0 label -orientation 38.3 -scale large  -text "Urlop Tacierzyński"
+
+point 1406.5 -1780.5 map-connection
+
+line wall
+  1293.0 -1722.5
+  1293.0 -1722.5 1411.5 -1763.5 1415.5 -1767.5
   smooth off
 endline
 
-line wall -subtype presumed
+line wall
+  1214.0 -1658.0
+  1214.0 -1658.0 1212.5 -1677.5 1217.5 -1681.0
+  1222.5 -1684.5 1251.5 -1688.5 1256.5 -1695.0
+  1261.5 -1701.5 1293.0 -1722.5 1293.0 -1722.5
+  smooth off
+endline
+
+line wall
+  1276.5 -1745.0
+  1276.5 -1745.0 1398.0 -1796.0 1405.5 -1799.0
+  smooth off
+endline
+
+line wall
   1168.0 -1684.0
   1168.0 -1684.0 1188.0 -1683.0 1195.0 -1685.5
-  1202.0 -1688.0 1210.5 -1723.5 1210.5 -1723.5
+  1202.0 -1688.0 1233.5 -1714.0 1233.5 -1714.0
   smooth off
-  1210.5 -1723.5 1215.5 -1759.5 1219.5 -1762.0
+  1233.5 -1714.0 1272.5 -1742.5 1276.5 -1745.0
   smooth off
 endline
 
